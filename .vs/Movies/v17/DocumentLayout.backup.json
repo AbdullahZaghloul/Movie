@@ -1,0 +1,499 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\NanoChip\\source\\repos\\Movies\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:areas\\admin\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\areas\\customer\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:areas\\customer\\views\\movie\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\areas\\customer\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:areas\\customer\\controllers\\moviecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:areas\\customer\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\areas\\admin\\views\\cinema\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:areas\\admin\\views\\cinema\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\areas\\admin\\controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:areas\\admin\\controllers\\cinemacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:areas\\admin\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\areas\\customer\\controllers\\actorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:areas\\customer\\controllers\\actorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\models\\moviestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:models\\moviestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\areas\\customer\\views\\actor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:areas\\customer\\views\\actor\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:models\\actor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\models\\actormovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:models\\actormovie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\areas\\admin\\views\\cinema\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:areas\\admin\\views\\cinema\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\areas\\admin\\views\\cinema\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:areas\\admin\\views\\cinema\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:areas\\admin\\views\\category\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:models\\cinema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:areas\\admin\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:areas\\admin\\views\\category\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\areas\\admin\\views\\home\\notfound.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:areas\\admin\\views\\home\\notfound.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\areas\\admin\\views\\home\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:areas\\admin\\views\\home\\index1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:areas\\admin\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:areas\\admin\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 30,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MovieStatus.cs",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Models\\MovieStatus.cs",
+              "RelativeDocumentMoniker": "Models\\MovieStatus.cs",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Models\\MovieStatus.cs",
+              "RelativeToolTip": "Models\\MovieStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T20:40:02.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Customer\\Views\\Actor\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Customer\\Views\\Actor\\Index.cshtml",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Customer\\Views\\Actor\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Customer\\Views\\Actor\\Index.cshtml",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAIwBcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T20:25:35.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ActorController.cs",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Customer\\Controllers\\ActorController.cs",
+              "RelativeDocumentMoniker": "Areas\\Customer\\Controllers\\ActorController.cs",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Customer\\Controllers\\ActorController.cs",
+              "RelativeToolTip": "Areas\\Customer\\Controllers\\ActorController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAAsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T20:25:25.959Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ActorMovie.cs",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Models\\ActorMovie.cs",
+              "RelativeDocumentMoniker": "Models\\ActorMovie.cs",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Models\\ActorMovie.cs",
+              "RelativeToolTip": "Models\\ActorMovie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T19:52:16.155Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Customer\\Views\\Movie\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Customer\\Views\\Movie\\Index.cshtml",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Customer\\Views\\Movie\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Customer\\Views\\Movie\\Index.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAQwDwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T18:19:31.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MovieController.cs",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Customer\\Controllers\\MovieController.cs",
+              "RelativeDocumentMoniker": "Areas\\Customer\\Controllers\\MovieController.cs",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Customer\\Controllers\\MovieController.cs",
+              "RelativeToolTip": "Areas\\Customer\\Controllers\\MovieController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T18:15:49.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Customer\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAlwGsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T18:14:37.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Areas\\Customer\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Areas\\Customer\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAYwCAAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T18:14:32.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwC0AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T18:06:39.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\Cinema\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Cinema\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\Cinema\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Cinema\\Edit.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACMAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T18:02:50.379Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Actor.cs",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Models\\Actor.cs",
+              "RelativeDocumentMoniker": "Models\\Actor.cs",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Models\\Actor.cs",
+              "RelativeToolTip": "Models\\Actor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T17:57:43.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\Cinema\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Cinema\\Create.cshtml",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\Cinema\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Cinema\\Create.cshtml",
+              "ViewState": "AgIAAA4AAAAAAAAAAADwvyEAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T17:49:31.689Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Cinema.cs",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Models\\Cinema.cs",
+              "RelativeDocumentMoniker": "Models\\Cinema.cs",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Models\\Cinema.cs",
+              "RelativeToolTip": "Models\\Cinema.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T17:27:16.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\Cinema\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Cinema\\Index.cshtml",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\Cinema\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Cinema\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAACoAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T17:26:42.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CinemaController.cs",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Controllers\\CinemaController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\CinemaController.cs",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Controllers\\CinemaController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\CinemaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T17:26:32.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T15:56:27.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAzwCAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T15:50:31.306Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "NotFound.cshtml",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\Home\\NotFound.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Home\\NotFound.cshtml",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\Home\\NotFound.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Home\\NotFound.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T15:46:52.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index1.cshtml",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\Home\\Index1.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Home\\Index1.cshtml",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\Home\\Index1.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Home\\Index1.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T15:43:14.543Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T15:42:50.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T15:34:57.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T15:10:11.617Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T15:10:07.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T15:10:05.736Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Models\\Movie.cs",
+              "RelativeToolTip": "Models\\Movie.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAwBoAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T15:07:28.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Models\\Category.cs",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Models\\Category.cs",
+              "RelativeToolTip": "Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:48:43.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "RelativeToolTip": "Areas\\Admin\\Views\\Category\\Index.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-26T14:45:08.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-26T14:44:57.5Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 65,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

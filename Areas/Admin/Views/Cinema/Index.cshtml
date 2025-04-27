@@ -1,0 +1,73 @@
+﻿@model IEnumerable<Cinema>
+
+@{
+    var i = 1;
+}
+
+<div class="container my-3">
+    <div class="row mb-3 align-items-center">
+        <div class="col-md-6">
+            <h2 class="display-6">All Cinema</h2>
+        </div>
+        <div class="col-md-6 text-md-end text-start mt-2 mt-md-0">
+            <a href="/Admin/Cinema/Create" class="btn btn-success">Create</a>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <table class="table table-bordered table-hover">
+                <thead class="table-primary">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Address</th>
+                        <th scope="col">Cinemas</th>
+                        <th scope="col">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var cinema in Model)
+                    {
+                        <tr>
+                            <th scope="row">@(i++)</th>
+                            <td>@cinema.Name</td>
+                            <td>@cinema.Description.Substring(0,10)</td>
+                            <td>@cinema.Address</td>
+                            <td><a href="/Customer/Home/Index?cinemaId=@cinema.Id">All Cinemas</a></td>
+                            <td>
+                                <a href="/Admin/Cinema/Edit/@cinema.Id" class="btn btn-warning btn-sm me-1">Edit</a>
+                                <button class="btn btn-danger btn-sm" onclick="confirmDelete(@cinema.Id)">Delete</button>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- SweetAlert2 Delete Confirmation Script -->
+
+<script>
+    function confirmDelete(Id) {
+        Swal.fire({
+            title: 'Are you sure?',
+            text: "You won’t be able to revert this!",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#d33',
+            cancelButtonColor: '#3085d6',
+            confirmButtonText: 'Yes, delete it!',
+            cancelButtonText: 'Cancel',
+            reverseButtons: true
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.href =  `/Admin/Cinema/Delete/${Id}`;
+            }
+        });
+    }
+</script>
+
+

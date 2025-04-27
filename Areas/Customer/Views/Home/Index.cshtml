@@ -1,0 +1,131 @@
+﻿@model MovieWithCategoriesWithCinemasVM
+
+<!-- Filter Section -->
+<section class="py-4 bg-opacity-10">
+    <div class="container px-4 px-lg-5">
+        <form action="/Customer/Home/Index">
+            <div class="row">
+                <!-- Category Filter -->
+                <div class="col-md-3">
+                    <select name="categoryId" class="form-select">
+                        <option value="">All Category</option>
+                        @foreach(var cat in Model.Categories)
+                        {
+                            if(cat.Id == Model.CategoryId)
+                            {
+                                <option selected value="@cat.Id">@cat.Name</option>
+                            }
+                            else
+                            {
+                                <option value="@cat.Id">@cat.Name</option>
+                            }
+
+                        }
+                    </select>
+                </div>  
+
+                <!-- cinema -->
+                <div class="col-md-3">
+                    <select name="cinemaId" class="form-select">
+                        <option value="">All Cinema</option>
+                        @foreach (var cinema in Model.Cinemas)
+                        {
+                            if(cinema.Id == Model.CinemaId)
+                            {
+                                <option selected value="@cinema.Id">@cinema.Name</option>
+                            }
+                            else
+                            {
+                                <option value="@cinema.Id">@cinema.Name</option>
+                            }
+
+                        }
+                    </select>
+                </div>
+
+                <!-- Price Range Filter -->
+                <div class="col-md-2">
+                    <input type="number" class="form-control" placeholder="Min Price" name="minPrice" value="@Model.MinPrice" />
+                </div>
+                <div class="col-md-2">
+                    <input type="number" class="form-control" placeholder="Max Price" name="maxPrice" value="@Model.MaxPrice" />
+                </div>
+
+                <!-- Submit Button -->
+                <div class="col-md-2">
+                    <button type="submit" class="btn btn-success w-100">Filter</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- Section -->
+<section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+
+        <!-- card -->
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+
+            @foreach(var movie in Model.Movies)
+            {
+                <div class="card m-3" style="width: 22rem;">
+                    <img src="~/images/movies/@movie.ImgUrl" style="height: 350px; width: auto;" class="mx-auto d-block" alt="Movie Poster">
+                    <div class="card-body">
+                        <h5 class="card-title">@movie.Name</h5>
+                        <p class="card-text">
+                            <strong>Price:</strong> <span class="badge bg-secondary">@movie.Price</span><br>
+                            <strong>Cinema:</strong> @movie.Cinema.Name<br>
+                            <strong>Start Date:</strong> @movie.StartDate<br>
+                            <strong>End Date:</strong> @movie.EndDate<br>
+                            <strong>Category:</strong> <a href="/Customer/Home/Index?categoryId=@movie.CategoryId" class="text-decoration-underline">@movie.Category.Name</a><br>
+                        </p>
+                        @if(movie.MovieStatus == MovieStatus.Available)
+                        {
+                            <span class="badge bg-success mb-3">@movie.MovieStatus</span><br>
+                        }
+                        else if(movie.MovieStatus == MovieStatus.Upcoming)
+                        {
+                            <span class="badge bg-primary mb-3">@movie.MovieStatus</span><br>
+                        }
+                        else if (movie.MovieStatus == MovieStatus.Expired)
+                        {
+                            <span class="badge bg-danger mb-3">@movie.MovieStatus</span><br>
+                        }
+
+                        <div class="d-flex justify-content-between">
+                            <a href="/Customer/Movie/Index/@movie.Id" class="btn btn-secondary">More Details</a>
+                            @if (movie.MovieStatus == MovieStatus.Available)
+                            {
+                                <button class="btn btn-success">Book Ticket</button>
+                            }
+                            else
+                            {
+                                <button disabled class="btn btn-success">Book Ticket</button>
+                            }
+                            
+                        </div>
+                    </div>
+                </div>
+            }
+
+        </div>
+
+    </div>
+</section>
+
+<!-- Pagination -->
+<div class="row">
+    <div class="col-12 d-flex justify-content-center">
+        <nav aria-label="Page navigation example">
+            <ul class="pagination">
+
+                @for (int i = 1; i <= Model.TotalNumOfPages; i++)
+                {
+                    <li class="page-item"><a class="page-link" href="/Customer/Home/Index?page=@i">@i</a></li>
+                }
+
+            </ul>
+        </nav>
+    </div>
+</div>
