@@ -27,7 +27,7 @@ namespace Movies.Areas.Admin.Controllers
                 _context.SaveChanges();
                 return RedirectToAction("Index");
             }
-            return RedirectToAction("NotFound", "Home");
+            return View(cinema);
         }
 
         public IActionResult Edit(int Id)

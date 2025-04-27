@@ -261,3 +261,4 @@ C:\Users\NanoChip\source\repos\Movies\obj\Debug\net8.0\refint\Movies.dll
 C:\Users\NanoChip\source\repos\Movies\obj\Debug\net8.0\Movies.pdb
 C:\Users\NanoChip\source\repos\Movies\obj\Debug\net8.0\Movies.genruntimeconfig.cache
 C:\Users\NanoChip\source\repos\Movies\obj\Debug\net8.0\ref\Movies.dll
+C:\Users\NanoChip\source\repos\Movies\obj\Debug\net8.0\Movies.sourcelink.json
