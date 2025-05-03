@@ -17,8 +17,24 @@
     </div>
 
     <div class="row g-4">
-        <div class="col-md-4">
-            <img src="~/images/movies/@Model.ImgUrl" alt="Movie Poster" class="movie-poster">
+        <div id="carouselExampleAutoplaying" class="carousel slide col-md-4" data-bs-ride="carousel">
+            <div class="carousel-inner">
+
+                @foreach(var item in Model.ImgUrl)
+                {
+                    <div class="carousel-item active">
+                        <img src="~/images/movies/@item" class="d-block w-100" alt="...">
+                    </div>
+                }
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
 
         <div class="col-md-8">
@@ -50,7 +66,7 @@
             <div class="text-center mb-3">
                 <div style="width: 70%; max-width: 400px;">
                     <div class="ratio ratio-16x9">
-                        <iframe src="https://www.youtube.com/embed/hamletforaoon" title="Trailer" allowfullscreen></iframe>
+                        <iframe src="~/images/movies/Videos/@Model.TrailerUrl" title="Trailer" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>

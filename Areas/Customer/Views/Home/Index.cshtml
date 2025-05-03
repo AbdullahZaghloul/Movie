@@ -70,7 +70,7 @@
             @foreach(var movie in Model.Movies)
             {
                 <div class="card m-3" style="width: 22rem;">
-                    <img src="~/images/movies/@movie.ImgUrl" style="height: 350px; width: auto;" class="mx-auto d-block" alt="Movie Poster">
+                    <img src="~/images/movies/@movie.ImgUrl[0]" style="height: 350px; width: 230px;" class="mx-auto d-block" alt="Movie Poster">
                     <div class="card-body">
                         <h5 class="card-title">@movie.Name</h5>
                         <p class="card-text">

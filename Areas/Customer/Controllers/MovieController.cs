@@ -10,7 +10,7 @@ namespace Movies.Areas.Customer.Controllers
         private readonly ApplicationDbContext _Context = new();
         public IActionResult Index(int Id)
         {
-            var movie = _Context.Movies.Include(m=>m.Category).Include(m=>m.Cinema).Include(m=>m.ActorMovies) .FirstOrDefault(m => m.Id == Id);
+            var movie = _Context.Movies.Include(m=>m.Category).Include(m=>m.Cinema).Include(m=>m.ActorMovies).FirstOrDefault(m => m.Id == Id);
             var actors = _Context.Actors.ToList();
             ViewBag.Actors = actors;
             return View(movie);

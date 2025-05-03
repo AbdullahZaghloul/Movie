@@ -19,6 +19,7 @@
   <ItemGroup>
     <Folder Include="Areas\Admin\Views - Copy\" />
     <Folder Include="Migrations\" />
+    <Folder Include="wwwroot\Videos\" />
   </ItemGroup>
 
 </Project>
