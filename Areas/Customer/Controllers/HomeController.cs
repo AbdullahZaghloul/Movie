@@ -1,9 +1,12 @@
 using System.Diagnostics;
+using System.Linq.Expressions;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Movies.Data;
 using Movies.Models;
 using Movies.Models.ViewModels;
+using Movies.Repositories;
+using Movies.Repositories.IRepositories;
 
 namespace Movies.Areas.Customer.Controllers
 {
@@ -11,7 +14,9 @@ namespace Movies.Areas.Customer.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly ApplicationDbContext _Context = new();
+        private readonly IMovieRepository _movieRepository = new MovieRepository();
+        private readonly ICinemaRepository _cinemaRepository = new CinemaRepository();
+        private readonly ICategoryRepository _categoryRepository = new CategoryRepository();
 
         public HomeController(ILogger<HomeController> logger)
         {
@@ -20,9 +25,9 @@ namespace Movies.Areas.Customer.Controllers
 
         public IActionResult Index(int categoryId,int cinemaId,int? minPrice,int? maxPrice,int page=1)
         {
-            IQueryable<Movie> movies = _Context.Movies.Include(m=>m.Category);
-            var categories = _Context.Categories;
-            var cinemas = _Context.Cinemas;
+            IQueryable<Movie> movies = _movieRepository.GetAll(includes: [m => m.Category,m=>m.Cinema]);
+            var categories = _categoryRepository.GetAll();
+            var cinemas = _cinemaRepository.GetAll();
 
             if(categoryId > 0)
             {

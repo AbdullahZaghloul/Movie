@@ -27,22 +27,22 @@
                 </div>
                 <div class="mb-3">
                     <label for="name" class="form-label">ImgUrl</label>
-                    <input type="file" class="form-control" asp-for="ImageFiles" multiple>
+                    <input type="file" class="form-control" name="ImgUrl" multiple>
                 </div>
                 
                 <div class="mb-3">
                     <label for="name" class="form-label">TrailerUrl</label>
-                    <input type="file" class="form-control" asp-for="Trailer">
+                    <input type="file" class="form-control" name="TrailerUrl">
                 </div>
                 <div class="mb-3">
                     <label for="name" class="form-label">StartDate</label>
-                    <input class="form-control" asp-for="Movie.StartDate" >
-                    <span asp-validation-for="Movie.StartDate" class="text-danger"></span>
+                    <input class="form-control" asp-for="@Model.Movie.StartDate" >
+                    <span asp-validation-for="@Model.Movie.StartDate" class="text-danger"></span>
                 </div>
                 <div class="mb-3">
                     <label for="name" class="form-label">EndDate</label>
-                    <input class="form-control" asp-for="Movie.EndDate" >
-                    <span asp-validation-for="Movie.EndDate" class="text-danger"></span>
+                    <input class="form-control" asp-for="@Model.Movie.EndDate" >
+                    <span asp-validation-for="@Model.Movie.EndDate" class="text-danger"></span>
                 </div>
                 <div class="mb-3">
                     <label for="name" class="form-label">MovieStatus</label>
@@ -55,23 +55,23 @@
                 </div>
                 <div class="mb-3">
                     <label for="name" class="form-label">Cinema</label>
-                    <select asp-for="Movie.CinemaId" class="form-select">
+                    <select asp-for="@Model.Movie.CinemaId" class="form-select">
                         @foreach (var cinema in @Model.Cinemas)
                         {
                             <option value="@cinema.Id">@cinema.Name</option>
                         }
                     </select>
-                    <span asp-validation-for="Movie.CinemaId" class="text-danger"></span>
+                    <span asp-validation-for="@Model.Movie.CinemaId" class="text-danger"></span>
                 </div>
                 <div class="mb-3">
                     <label for="name" class="form-label">Category</label>
-                    <select asp-for="Movie.CategoryId" class="form-select">
+                    <select asp-for="@Model.Movie.CategoryId" class="form-select">
                         @foreach (var category in @Model.Categories)
                         {
                             <option value="@category.Id">@category.Name</option>
                         }
                     </select>
-                    <span asp-validation-for="Movie.CategoryId" class="text-danger"></span>
+                    <span asp-validation-for="@Model.Movie.CategoryId" class="text-danger"></span>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>

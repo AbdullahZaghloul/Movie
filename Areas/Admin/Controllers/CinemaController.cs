@@ -1,16 +1,20 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Movies.Data;
 using Movies.Models;
+using Movies.Repositories;
+using Movies.Repositories.IRepositories;
+using System.Threading.Tasks;
 
 namespace Movies.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class CinemaController : Controller
     {
-        private readonly ApplicationDbContext _context = new();
+        //private readonly ApplicationDbContext _context = new();
+        private readonly ICinemaRepository _cinemaRepository=new CinemaRepository();
         public IActionResult Index()
         {
-            var cinemas = _context.Cinemas;
+            var cinemas = _cinemaRepository.GetAll();
             return View(cinemas.ToList());
         }
         public IActionResult Create()
@@ -19,12 +23,13 @@ namespace Movies.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(Cinema cinema)
+        public async Task<IActionResult> Create(Cinema cinema)
         {
             if (ModelState.IsValid)
             {
-                _context.Cinemas.Add(cinema);
-                _context.SaveChanges();
+                
+                await _cinemaRepository.AddAsync(cinema);
+                await _cinemaRepository.CommitAsync();
                 return RedirectToAction("Index");
             }
             return View(cinema);
@@ -32,7 +37,7 @@ namespace Movies.Areas.Admin.Controllers
 
         public IActionResult Edit(int Id)
         {
-            var cinema = _context.Cinemas.Find(Id);
+            var cinema = _cinemaRepository.Get(exception: [c => c.Id == Id]);
             if (cinema is not null)
             {
                 return View(cinema);
@@ -41,24 +46,24 @@ namespace Movies.Areas.Admin.Controllers
         }
         
         [HttpPost]
-        public IActionResult Edit(Cinema cinema)
+        public async Task<IActionResult> Edit(Cinema cinema)
         {
             if (ModelState.IsValid)
             {
-                _context.Cinemas.Update(cinema);
-                _context.SaveChanges();
+                _cinemaRepository.Update(cinema);
+                await _cinemaRepository.CommitAsync();
                 return RedirectToAction("Index");
             }
             return View(cinema);
         }
 
-        public IActionResult Delete(int Id)
+        public async Task<IActionResult> Delete(int Id)
         {
-            var cinema = _context.Cinemas.Find(Id);
+            var cinema = _cinemaRepository.Get(exception: [c => c.Id == Id]);
             if (cinema is not null)
             {
-                _context.Cinemas.Remove(cinema);
-                _context.SaveChanges();
+                _cinemaRepository.Delete(cinema);
+                await _cinemaRepository.CommitAsync();
                 return RedirectToAction("Index");
             }
             return RedirectToAction("NotFound", "Home");

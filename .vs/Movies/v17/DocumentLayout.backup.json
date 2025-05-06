@@ -58,8 +58,7 @@
               "RelativeToolTip": "Models\\ViewModels\\MovieWithCategoryWithCinemaVM2.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T15:20:22.345Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T15:20:22.345Z"
             },
             {
               "$type": "Document",
@@ -83,8 +82,7 @@
               "RelativeToolTip": "Models\\Movie.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAA/wA4AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T14:33:21.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T14:33:21.02Z"
             },
             {
               "$type": "Document",
@@ -96,8 +94,7 @@
               "RelativeToolTip": "Areas\\Admin\\Views\\Movie\\Create.cshtml",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAB8AAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-03T13:03:39.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T13:03:39.453Z"
             },
             {
               "$type": "Document",
@@ -119,7 +116,7 @@
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\MovieController.cs",
               "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Controllers\\MovieController.cs",
               "RelativeToolTip": "Areas\\Admin\\Controllers\\MovieController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAiwCYAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAiwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-03T13:00:21.249Z",
               "EditorCaption": ""

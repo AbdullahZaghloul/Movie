@@ -13,8 +13,20 @@
       "PackagePath": "staticwebassets\\Videos\\09bae06c-7963-4d23-a4e2-22d7adcc1c3d.mp4"
     },
     {
+      "Id": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\Videos\\2098ebf6-396d-4243-a7a4-8067ba29e323.mp4",
+      "PackagePath": "staticwebassets\\Videos\\2098ebf6-396d-4243-a7a4-8067ba29e323.mp4"
+    },
+    {
+      "Id": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\Videos\\2fb44547-4dc9-46a7-972c-92ef2d490d16.mp4",
+      "PackagePath": "staticwebassets\\Videos\\2fb44547-4dc9-46a7-972c-92ef2d490d16.mp4"
+    },
+    {
       "Id": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\Videos\\307fe9b0-8a10-4456-bdca-8903e67004d8.mp4",
       "PackagePath": "staticwebassets\\Videos\\307fe9b0-8a10-4456-bdca-8903e67004d8.mp4"
+    },
+    {
+      "Id": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\Videos\\4cdbe9e5-40ae-453f-9829-256d05c69ab9.mp4",
+      "PackagePath": "staticwebassets\\Videos\\4cdbe9e5-40ae-453f-9829-256d05c69ab9.mp4"
     },
     {
       "Id": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\Videos\\5c5dae5b-39ec-471c-8e73-6861d41b1435.mp4",
@@ -27,6 +39,10 @@
     {
       "Id": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\Videos\\ccd12355-445e-4bf5-91c0-ca64b5c85f87.mp4",
       "PackagePath": "staticwebassets\\Videos\\ccd12355-445e-4bf5-91c0-ca64b5c85f87.mp4"
+    },
+    {
+      "Id": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\Videos\\e125c396-04fe-48f8-b598-571027082584.mp4",
+      "PackagePath": "staticwebassets\\Videos\\e125c396-04fe-48f8-b598-571027082584.mp4"
     },
     {
       "Id": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\assets\\demo\\chart-area-demo.js",
@@ -149,16 +165,40 @@
       "PackagePath": "staticwebassets\\images\\movies\\1f40f3a9-6679-46ad-819b-c3c4b0ee4555.png"
     },
     {
+      "Id": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\29192a3b-d2e6-4ea9-97bf-5bbac79db6aa.png",
+      "PackagePath": "staticwebassets\\images\\movies\\29192a3b-d2e6-4ea9-97bf-5bbac79db6aa.png"
+    },
+    {
+      "Id": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\2c91dc70-4382-4e93-925d-e9bae74404b4.png",
+      "PackagePath": "staticwebassets\\images\\movies\\2c91dc70-4382-4e93-925d-e9bae74404b4.png"
+    },
+    {
+      "Id": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\2f0c7a22-a070-4499-abd9-5e166b779cbf.pdf",
+      "PackagePath": "staticwebassets\\images\\movies\\2f0c7a22-a070-4499-abd9-5e166b779cbf.pdf"
+    },
+    {
       "Id": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\350389f1-8f36-4ce9-802b-29de78a4cb1f.png",
       "PackagePath": "staticwebassets\\images\\movies\\350389f1-8f36-4ce9-802b-29de78a4cb1f.png"
+    },
+    {
+      "Id": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\42188ac9-1e8c-4186-a902-c3c1f0d5865a.jpg",
+      "PackagePath": "staticwebassets\\images\\movies\\42188ac9-1e8c-4186-a902-c3c1f0d5865a.jpg"
     },
     {
       "Id": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\4a7d82fb-0a0e-42b0-b071-e0ec98a3475c.jpg",
       "PackagePath": "staticwebassets\\images\\movies\\4a7d82fb-0a0e-42b0-b071-e0ec98a3475c.jpg"
     },
     {
+      "Id": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\4c3a1d18-2495-42c9-8548-51ae3ba6107d.png",
+      "PackagePath": "staticwebassets\\images\\movies\\4c3a1d18-2495-42c9-8548-51ae3ba6107d.png"
+    },
+    {
       "Id": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\6204a23e-6846-49c9-8039-64c45845115d.png",
       "PackagePath": "staticwebassets\\images\\movies\\6204a23e-6846-49c9-8039-64c45845115d.png"
+    },
+    {
+      "Id": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\62f7a4f4-1467-415c-a38f-ede0c142468a.png",
+      "PackagePath": "staticwebassets\\images\\movies\\62f7a4f4-1467-415c-a38f-ede0c142468a.png"
     },
     {
       "Id": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\6de7e6c7-a344-4492-9975-337c7d8d5bc7.jpg",
@@ -169,8 +209,16 @@
       "PackagePath": "staticwebassets\\images\\movies\\70ce6390-2b1e-4f68-a4a3-e34093294b72.png"
     },
     {
+      "Id": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\7f49b0f6-eb9e-4a92-b577-8da6deff6757.png",
+      "PackagePath": "staticwebassets\\images\\movies\\7f49b0f6-eb9e-4a92-b577-8da6deff6757.png"
+    },
+    {
       "Id": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\7fd9905a-d282-4a9d-a764-f9e7c5e72f2b.png",
       "PackagePath": "staticwebassets\\images\\movies\\7fd9905a-d282-4a9d-a764-f9e7c5e72f2b.png"
+    },
+    {
+      "Id": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\823fcd33-8bd2-419a-8cef-fa021c48be8d.png",
+      "PackagePath": "staticwebassets\\images\\movies\\823fcd33-8bd2-419a-8cef-fa021c48be8d.png"
     },
     {
       "Id": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\9e8efc0d-8885-4d83-89f8-1f89975c24cf.jpg",
@@ -187,6 +235,10 @@
     {
       "Id": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\ba4ef602-f56f-4f16-b42f-4beae2c652d8.png",
       "PackagePath": "staticwebassets\\images\\movies\\ba4ef602-f56f-4f16-b42f-4beae2c652d8.png"
+    },
+    {
+      "Id": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\c1a158f9-5e08-40f1-8f4b-0613c73346d4.png",
+      "PackagePath": "staticwebassets\\images\\movies\\c1a158f9-5e08-40f1-8f4b-0613c73346d4.png"
     },
     {
       "Id": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\da74f58d-a60c-47ab-b4ab-352583dbed49.jpg",

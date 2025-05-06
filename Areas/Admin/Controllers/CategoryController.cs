@@ -1,16 +1,19 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Movies.Data;
 using Movies.Models;
+using Movies.Repositories;
+using Movies.Repositories.IRepositories;
+using System.Threading.Tasks;
 
 namespace Movies.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class CategoryController : Controller
     {
-        private readonly ApplicationDbContext _context = new();
+        private readonly ICategoryRepository _categoryRepository = new CategoryRepository();
         public IActionResult Index()
         {
-            var categories = _context.Categories;
+            var categories =  _categoryRepository.GetAll();
             return View(categories.ToList());
         }
         public IActionResult Create()
@@ -19,12 +22,13 @@ namespace Movies.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult Create(Category category)
+        public async Task<IActionResult> Create(Category category)
         {
             if (ModelState.IsValid)
             {
-                _context.Categories.Add(category);
-                _context.SaveChanges();
+                
+                await _categoryRepository.AddAsync(category);
+                await _categoryRepository.CommitAsync();
                 return RedirectToAction("Index");
             }
             return View(category);
@@ -32,7 +36,7 @@ namespace Movies.Areas.Admin.Controllers
 
         public IActionResult Edit(int Id)
         {
-            var category = _context.Categories.Find(Id);
+            var category = _categoryRepository.Get(exception: [c => c.Id == Id]);
             if (category is not null)
             {
                 return View(category);
@@ -41,24 +45,25 @@ namespace Movies.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public IActionResult Edit(Category category)
+        public async Task<IActionResult> Edit(Category category)
         {
             if (ModelState.IsValid)
             {
-                _context.Categories.Update(category);
-                _context.SaveChanges();
+                
+                _categoryRepository.Update(category);
+                await _categoryRepository.CommitAsync();
                 return RedirectToAction("Index");
             }
             return View(category);
         }
 
-        public IActionResult Delete(int Id)
+        public async Task<IActionResult> Delete(int Id)
         {
-            var category = _context.Categories.Find(Id);
+            var category = _categoryRepository.Get(exception: [c => c.Id == Id]);
             if (category is not null)
             {
-                _context.Categories.Remove(category);
-                _context.SaveChanges();
+                _categoryRepository.Delete(category);
+                await _categoryRepository.CommitAsync();
                 return RedirectToAction("Index");
             }
             return RedirectToAction("NotFound", "Home");

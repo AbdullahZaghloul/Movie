@@ -1,17 +1,21 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Movies.Data;
+using Movies.Repositories;
+using Movies.Repositories.IRepositories;
 
 namespace Movies.Areas.Customer.Controllers
 {
     [Area("Customer")]
     public class MovieController : Controller
     {
-        private readonly ApplicationDbContext _Context = new();
+        private readonly IMovieRepository _movieRepository = new MovieRepository();
+        private readonly IActorRepository _actorRepository = new ActorRepository();
+        
         public IActionResult Index(int Id)
         {
-            var movie = _Context.Movies.Include(m=>m.Category).Include(m=>m.Cinema).Include(m=>m.ActorMovies).FirstOrDefault(m => m.Id == Id);
-            var actors = _Context.Actors.ToList();
+            var movie = _movieRepository.GetAll(includes: [m => m.Category, m => m.Cinema, m => m.ActorMovies]).FirstOrDefault(m => m.Id == Id);
+            var actors = _actorRepository.GetAll();
             ViewBag.Actors = actors;
             return View(movie);
         }

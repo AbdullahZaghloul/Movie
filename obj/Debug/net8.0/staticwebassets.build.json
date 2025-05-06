@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "k4GUtwbBqlf45zSUkRbp04nMoiDg28v3xIEdPeGYAGs=",
+  "Hash": "JLNx9w1QdcAzCQUM7EFTsuEXF+o1WIsO6B0eOSbe9yM=",
   "Source": "Movies",
   "BasePath": "_content/Movies",
   "Mode": "Default",
@@ -689,6 +689,69 @@
       "OriginalItemSpec": "wwwroot\\images\\movies\\1f40f3a9-6679-46ad-819b-c3c4b0ee4555.png"
     },
     {
+      "Identity": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\29192a3b-d2e6-4ea9-97bf-5bbac79db6aa.png",
+      "SourceId": "Movies",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\",
+      "BasePath": "_content/Movies",
+      "RelativePath": "images/movies/29192a3b-d2e6-4ea9-97bf-5bbac79db6aa#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "26l5nlrqwi",
+      "Integrity": "ahVSaMRyBVQovz2T5eYOFeRf6XcFpduPfk/aaoD10cM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\movies\\29192a3b-d2e6-4ea9-97bf-5bbac79db6aa.png"
+    },
+    {
+      "Identity": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\2c91dc70-4382-4e93-925d-e9bae74404b4.png",
+      "SourceId": "Movies",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\",
+      "BasePath": "_content/Movies",
+      "RelativePath": "images/movies/2c91dc70-4382-4e93-925d-e9bae74404b4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4vgj4bc5z6",
+      "Integrity": "IGwwbWoHil9v/l1zjM9qKAd+MIsvTtHgWvwNZFfIt7A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\movies\\2c91dc70-4382-4e93-925d-e9bae74404b4.png"
+    },
+    {
+      "Identity": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\2f0c7a22-a070-4499-abd9-5e166b779cbf.pdf",
+      "SourceId": "Movies",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\",
+      "BasePath": "_content/Movies",
+      "RelativePath": "images/movies/2f0c7a22-a070-4499-abd9-5e166b779cbf#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "v4vbn9ne8m",
+      "Integrity": "oWLIUbRejKiltTLJz6HFROskAhWlFu5zzq8tkBW17xM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\movies\\2f0c7a22-a070-4499-abd9-5e166b779cbf.pdf"
+    },
+    {
       "Identity": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\350389f1-8f36-4ce9-802b-29de78a4cb1f.png",
       "SourceId": "Movies",
       "SourceType": "Discovered",
@@ -708,6 +771,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\movies\\350389f1-8f36-4ce9-802b-29de78a4cb1f.png"
+    },
+    {
+      "Identity": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\42188ac9-1e8c-4186-a902-c3c1f0d5865a.jpg",
+      "SourceId": "Movies",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\",
+      "BasePath": "_content/Movies",
+      "RelativePath": "images/movies/42188ac9-1e8c-4186-a902-c3c1f0d5865a#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0ch826wjfh",
+      "Integrity": "wOPsKY5Bpy4SkIIJtzMCXtkiG/Xv0W0SMaU637S30Ng=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\movies\\42188ac9-1e8c-4186-a902-c3c1f0d5865a.jpg"
     },
     {
       "Identity": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\4a7d82fb-0a0e-42b0-b071-e0ec98a3475c.jpg",
@@ -731,6 +815,27 @@
       "OriginalItemSpec": "wwwroot\\images\\movies\\4a7d82fb-0a0e-42b0-b071-e0ec98a3475c.jpg"
     },
     {
+      "Identity": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\4c3a1d18-2495-42c9-8548-51ae3ba6107d.png",
+      "SourceId": "Movies",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\",
+      "BasePath": "_content/Movies",
+      "RelativePath": "images/movies/4c3a1d18-2495-42c9-8548-51ae3ba6107d#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "sboonh03yg",
+      "Integrity": "KKzQ968BtQ5MPNYprLNa6xf6bXcFaBgJN06yZ2gR9dM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\movies\\4c3a1d18-2495-42c9-8548-51ae3ba6107d.png"
+    },
+    {
       "Identity": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\6204a23e-6846-49c9-8039-64c45845115d.png",
       "SourceId": "Movies",
       "SourceType": "Discovered",
@@ -750,6 +855,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\movies\\6204a23e-6846-49c9-8039-64c45845115d.png"
+    },
+    {
+      "Identity": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\62f7a4f4-1467-415c-a38f-ede0c142468a.png",
+      "SourceId": "Movies",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\",
+      "BasePath": "_content/Movies",
+      "RelativePath": "images/movies/62f7a4f4-1467-415c-a38f-ede0c142468a#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "na9860pq6g",
+      "Integrity": "8UgPmWhpxX7SO7Y48bHI/rdwJXzaUaMvUPlpmuY1xyA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\movies\\62f7a4f4-1467-415c-a38f-ede0c142468a.png"
     },
     {
       "Identity": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\6de7e6c7-a344-4492-9975-337c7d8d5bc7.jpg",
@@ -794,6 +920,27 @@
       "OriginalItemSpec": "wwwroot\\images\\movies\\70ce6390-2b1e-4f68-a4a3-e34093294b72.png"
     },
     {
+      "Identity": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\7f49b0f6-eb9e-4a92-b577-8da6deff6757.png",
+      "SourceId": "Movies",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\",
+      "BasePath": "_content/Movies",
+      "RelativePath": "images/movies/7f49b0f6-eb9e-4a92-b577-8da6deff6757#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5168quwj6e",
+      "Integrity": "iSKuxEAMPxB0O4dnd6Z1Mtcpa+dVY5N0FhetvEK3LX8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\movies\\7f49b0f6-eb9e-4a92-b577-8da6deff6757.png"
+    },
+    {
       "Identity": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\7fd9905a-d282-4a9d-a764-f9e7c5e72f2b.png",
       "SourceId": "Movies",
       "SourceType": "Discovered",
@@ -813,6 +960,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\movies\\7fd9905a-d282-4a9d-a764-f9e7c5e72f2b.png"
+    },
+    {
+      "Identity": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\823fcd33-8bd2-419a-8cef-fa021c48be8d.png",
+      "SourceId": "Movies",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\",
+      "BasePath": "_content/Movies",
+      "RelativePath": "images/movies/823fcd33-8bd2-419a-8cef-fa021c48be8d#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hgv5o0w0nm",
+      "Integrity": "gUbMe/eIVZhTqpeJWc+sEs4IEEAWpw0m8UcpCnQFTHY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\movies\\823fcd33-8bd2-419a-8cef-fa021c48be8d.png"
     },
     {
       "Identity": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\9e8efc0d-8885-4d83-89f8-1f89975c24cf.jpg",
@@ -876,6 +1044,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\movies\\ba4ef602-f56f-4f16-b42f-4beae2c652d8.png"
+    },
+    {
+      "Identity": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\c1a158f9-5e08-40f1-8f4b-0613c73346d4.png",
+      "SourceId": "Movies",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\",
+      "BasePath": "_content/Movies",
+      "RelativePath": "images/movies/c1a158f9-5e08-40f1-8f4b-0613c73346d4#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k8o2anuf31",
+      "Integrity": "zHKo5KsIBVjDX7Tk+P1WzZO0sDBlRnQlkCb9AlYIoI4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\movies\\c1a158f9-5e08-40f1-8f4b-0613c73346d4.png"
     },
     {
       "Identity": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\da74f58d-a60c-47ab-b4ab-352583dbed49.jpg",
@@ -2474,6 +2663,48 @@
       "OriginalItemSpec": "wwwroot\\Videos\\09bae06c-7963-4d23-a4e2-22d7adcc1c3d.mp4"
     },
     {
+      "Identity": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\Videos\\2098ebf6-396d-4243-a7a4-8067ba29e323.mp4",
+      "SourceId": "Movies",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\",
+      "BasePath": "_content/Movies",
+      "RelativePath": "Videos/2098ebf6-396d-4243-a7a4-8067ba29e323#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2bqc5fagxf",
+      "Integrity": "LnGQ/6ofAEoAWJ7f2GDfl6kczYG9d9DAzP9dJEBtpwo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\2098ebf6-396d-4243-a7a4-8067ba29e323.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\Videos\\2fb44547-4dc9-46a7-972c-92ef2d490d16.mp4",
+      "SourceId": "Movies",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\",
+      "BasePath": "_content/Movies",
+      "RelativePath": "Videos/2fb44547-4dc9-46a7-972c-92ef2d490d16#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2bqc5fagxf",
+      "Integrity": "LnGQ/6ofAEoAWJ7f2GDfl6kczYG9d9DAzP9dJEBtpwo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\2fb44547-4dc9-46a7-972c-92ef2d490d16.mp4"
+    },
+    {
       "Identity": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\Videos\\307fe9b0-8a10-4456-bdca-8903e67004d8.mp4",
       "SourceId": "Movies",
       "SourceType": "Discovered",
@@ -2493,6 +2724,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Videos\\307fe9b0-8a10-4456-bdca-8903e67004d8.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\Videos\\4cdbe9e5-40ae-453f-9829-256d05c69ab9.mp4",
+      "SourceId": "Movies",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\",
+      "BasePath": "_content/Movies",
+      "RelativePath": "Videos/4cdbe9e5-40ae-453f-9829-256d05c69ab9#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2bqc5fagxf",
+      "Integrity": "LnGQ/6ofAEoAWJ7f2GDfl6kczYG9d9DAzP9dJEBtpwo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\4cdbe9e5-40ae-453f-9829-256d05c69ab9.mp4"
     },
     {
       "Identity": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\Videos\\5c5dae5b-39ec-471c-8e73-6861d41b1435.mp4",
@@ -2556,6 +2808,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Videos\\ccd12355-445e-4bf5-91c0-ca64b5c85f87.mp4"
+    },
+    {
+      "Identity": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\Videos\\e125c396-04fe-48f8-b598-571027082584.mp4",
+      "SourceId": "Movies",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\",
+      "BasePath": "_content/Movies",
+      "RelativePath": "Videos/e125c396-04fe-48f8-b598-571027082584#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2bqc5fagxf",
+      "Integrity": "LnGQ/6ofAEoAWJ7f2GDfl6kczYG9d9DAzP9dJEBtpwo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Videos\\e125c396-04fe-48f8-b598-571027082584.mp4"
     }
   ],
   "Endpoints": [
@@ -5020,6 +5293,252 @@
       ]
     },
     {
+      "Route": "images/movies/29192a3b-d2e6-4ea9-97bf-5bbac79db6aa.26l5nlrqwi.png",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\29192a3b-d2e6-4ea9-97bf-5bbac79db6aa.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51930"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ahVSaMRyBVQovz2T5eYOFeRf6XcFpduPfk/aaoD10cM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 20:25:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "26l5nlrqwi"
+        },
+        {
+          "Name": "label",
+          "Value": "images/movies/29192a3b-d2e6-4ea9-97bf-5bbac79db6aa.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ahVSaMRyBVQovz2T5eYOFeRf6XcFpduPfk/aaoD10cM="
+        }
+      ]
+    },
+    {
+      "Route": "images/movies/29192a3b-d2e6-4ea9-97bf-5bbac79db6aa.png",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\29192a3b-d2e6-4ea9-97bf-5bbac79db6aa.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "51930"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ahVSaMRyBVQovz2T5eYOFeRf6XcFpduPfk/aaoD10cM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 20:25:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ahVSaMRyBVQovz2T5eYOFeRf6XcFpduPfk/aaoD10cM="
+        }
+      ]
+    },
+    {
+      "Route": "images/movies/2c91dc70-4382-4e93-925d-e9bae74404b4.4vgj4bc5z6.png",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\2c91dc70-4382-4e93-925d-e9bae74404b4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IGwwbWoHil9v/l1zjM9qKAd+MIsvTtHgWvwNZFfIt7A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 20:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4vgj4bc5z6"
+        },
+        {
+          "Name": "label",
+          "Value": "images/movies/2c91dc70-4382-4e93-925d-e9bae74404b4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IGwwbWoHil9v/l1zjM9qKAd+MIsvTtHgWvwNZFfIt7A="
+        }
+      ]
+    },
+    {
+      "Route": "images/movies/2c91dc70-4382-4e93-925d-e9bae74404b4.png",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\2c91dc70-4382-4e93-925d-e9bae74404b4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "12538"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IGwwbWoHil9v/l1zjM9qKAd+MIsvTtHgWvwNZFfIt7A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 20:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IGwwbWoHil9v/l1zjM9qKAd+MIsvTtHgWvwNZFfIt7A="
+        }
+      ]
+    },
+    {
+      "Route": "images/movies/2f0c7a22-a070-4499-abd9-5e166b779cbf.pdf",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\2f0c7a22-a070-4499-abd9-5e166b779cbf.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41798"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oWLIUbRejKiltTLJz6HFROskAhWlFu5zzq8tkBW17xM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 17:52:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-oWLIUbRejKiltTLJz6HFROskAhWlFu5zzq8tkBW17xM="
+        }
+      ]
+    },
+    {
+      "Route": "images/movies/2f0c7a22-a070-4499-abd9-5e166b779cbf.v4vbn9ne8m.pdf",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\2f0c7a22-a070-4499-abd9-5e166b779cbf.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41798"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"oWLIUbRejKiltTLJz6HFROskAhWlFu5zzq8tkBW17xM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 17:52:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "v4vbn9ne8m"
+        },
+        {
+          "Name": "label",
+          "Value": "images/movies/2f0c7a22-a070-4499-abd9-5e166b779cbf.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-oWLIUbRejKiltTLJz6HFROskAhWlFu5zzq8tkBW17xM="
+        }
+      ]
+    },
+    {
       "Route": "images/movies/350389f1-8f36-4ce9-802b-29de78a4cb1f.k8o2anuf31.png",
       "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\350389f1-8f36-4ce9-802b-29de78a4cb1f.png",
       "Selectors": [],
@@ -5098,6 +5617,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-zHKo5KsIBVjDX7Tk+P1WzZO0sDBlRnQlkCb9AlYIoI4="
+        }
+      ]
+    },
+    {
+      "Route": "images/movies/42188ac9-1e8c-4186-a902-c3c1f0d5865a.0ch826wjfh.jpg",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\42188ac9-1e8c-4186-a902-c3c1f0d5865a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5566"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wOPsKY5Bpy4SkIIJtzMCXtkiG/Xv0W0SMaU637S30Ng=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 17:47:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0ch826wjfh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/movies/42188ac9-1e8c-4186-a902-c3c1f0d5865a.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-wOPsKY5Bpy4SkIIJtzMCXtkiG/Xv0W0SMaU637S30Ng="
+        }
+      ]
+    },
+    {
+      "Route": "images/movies/42188ac9-1e8c-4186-a902-c3c1f0d5865a.jpg",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\42188ac9-1e8c-4186-a902-c3c1f0d5865a.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5566"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"wOPsKY5Bpy4SkIIJtzMCXtkiG/Xv0W0SMaU637S30Ng=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 03 May 2025 17:47:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-wOPsKY5Bpy4SkIIJtzMCXtkiG/Xv0W0SMaU637S30Ng="
         }
       ]
     },
@@ -5184,6 +5785,88 @@
       ]
     },
     {
+      "Route": "images/movies/4c3a1d18-2495-42c9-8548-51ae3ba6107d.png",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\4c3a1d18-2495-42c9-8548-51ae3ba6107d.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15251"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KKzQ968BtQ5MPNYprLNa6xf6bXcFaBgJN06yZ2gR9dM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 21:18:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KKzQ968BtQ5MPNYprLNa6xf6bXcFaBgJN06yZ2gR9dM="
+        }
+      ]
+    },
+    {
+      "Route": "images/movies/4c3a1d18-2495-42c9-8548-51ae3ba6107d.sboonh03yg.png",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\4c3a1d18-2495-42c9-8548-51ae3ba6107d.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "15251"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KKzQ968BtQ5MPNYprLNa6xf6bXcFaBgJN06yZ2gR9dM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 21:18:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "sboonh03yg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/movies/4c3a1d18-2495-42c9-8548-51ae3ba6107d.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KKzQ968BtQ5MPNYprLNa6xf6bXcFaBgJN06yZ2gR9dM="
+        }
+      ]
+    },
+    {
       "Route": "images/movies/6204a23e-6846-49c9-8039-64c45845115d.k8o2anuf31.png",
       "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\6204a23e-6846-49c9-8039-64c45845115d.png",
       "Selectors": [],
@@ -5262,6 +5945,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-zHKo5KsIBVjDX7Tk+P1WzZO0sDBlRnQlkCb9AlYIoI4="
+        }
+      ]
+    },
+    {
+      "Route": "images/movies/62f7a4f4-1467-415c-a38f-ede0c142468a.na9860pq6g.png",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\62f7a4f4-1467-415c-a38f-ede0c142468a.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24322"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8UgPmWhpxX7SO7Y48bHI/rdwJXzaUaMvUPlpmuY1xyA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 20:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "na9860pq6g"
+        },
+        {
+          "Name": "label",
+          "Value": "images/movies/62f7a4f4-1467-415c-a38f-ede0c142468a.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8UgPmWhpxX7SO7Y48bHI/rdwJXzaUaMvUPlpmuY1xyA="
+        }
+      ]
+    },
+    {
+      "Route": "images/movies/62f7a4f4-1467-415c-a38f-ede0c142468a.png",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\62f7a4f4-1467-415c-a38f-ede0c142468a.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24322"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8UgPmWhpxX7SO7Y48bHI/rdwJXzaUaMvUPlpmuY1xyA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 20:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8UgPmWhpxX7SO7Y48bHI/rdwJXzaUaMvUPlpmuY1xyA="
         }
       ]
     },
@@ -5430,6 +6195,88 @@
       ]
     },
     {
+      "Route": "images/movies/7f49b0f6-eb9e-4a92-b577-8da6deff6757.5168quwj6e.png",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\7f49b0f6-eb9e-4a92-b577-8da6deff6757.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "578890"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iSKuxEAMPxB0O4dnd6Z1Mtcpa+dVY5N0FhetvEK3LX8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 21:18:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5168quwj6e"
+        },
+        {
+          "Name": "label",
+          "Value": "images/movies/7f49b0f6-eb9e-4a92-b577-8da6deff6757.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-iSKuxEAMPxB0O4dnd6Z1Mtcpa+dVY5N0FhetvEK3LX8="
+        }
+      ]
+    },
+    {
+      "Route": "images/movies/7f49b0f6-eb9e-4a92-b577-8da6deff6757.png",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\7f49b0f6-eb9e-4a92-b577-8da6deff6757.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "578890"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"iSKuxEAMPxB0O4dnd6Z1Mtcpa+dVY5N0FhetvEK3LX8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 21:18:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-iSKuxEAMPxB0O4dnd6Z1Mtcpa+dVY5N0FhetvEK3LX8="
+        }
+      ]
+    },
+    {
       "Route": "images/movies/7fd9905a-d282-4a9d-a764-f9e7c5e72f2b.k8o2anuf31.png",
       "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\7fd9905a-d282-4a9d-a764-f9e7c5e72f2b.png",
       "Selectors": [],
@@ -5508,6 +6355,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-zHKo5KsIBVjDX7Tk+P1WzZO0sDBlRnQlkCb9AlYIoI4="
+        }
+      ]
+    },
+    {
+      "Route": "images/movies/823fcd33-8bd2-419a-8cef-fa021c48be8d.hgv5o0w0nm.png",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\823fcd33-8bd2-419a-8cef-fa021c48be8d.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25874"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gUbMe/eIVZhTqpeJWc+sEs4IEEAWpw0m8UcpCnQFTHY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 20:36:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hgv5o0w0nm"
+        },
+        {
+          "Name": "label",
+          "Value": "images/movies/823fcd33-8bd2-419a-8cef-fa021c48be8d.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-gUbMe/eIVZhTqpeJWc+sEs4IEEAWpw0m8UcpCnQFTHY="
+        }
+      ]
+    },
+    {
+      "Route": "images/movies/823fcd33-8bd2-419a-8cef-fa021c48be8d.png",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\823fcd33-8bd2-419a-8cef-fa021c48be8d.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "25874"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"gUbMe/eIVZhTqpeJWc+sEs4IEEAWpw0m8UcpCnQFTHY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 20:36:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-gUbMe/eIVZhTqpeJWc+sEs4IEEAWpw0m8UcpCnQFTHY="
         }
       ]
     },
@@ -5754,6 +6683,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-ahVSaMRyBVQovz2T5eYOFeRf6XcFpduPfk/aaoD10cM="
+        }
+      ]
+    },
+    {
+      "Route": "images/movies/c1a158f9-5e08-40f1-8f4b-0613c73346d4.k8o2anuf31.png",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\c1a158f9-5e08-40f1-8f4b-0613c73346d4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "83114"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zHKo5KsIBVjDX7Tk+P1WzZO0sDBlRnQlkCb9AlYIoI4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 20:16:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k8o2anuf31"
+        },
+        {
+          "Name": "label",
+          "Value": "images/movies/c1a158f9-5e08-40f1-8f4b-0613c73346d4.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zHKo5KsIBVjDX7Tk+P1WzZO0sDBlRnQlkCb9AlYIoI4="
+        }
+      ]
+    },
+    {
+      "Route": "images/movies/c1a158f9-5e08-40f1-8f4b-0613c73346d4.png",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\images\\movies\\c1a158f9-5e08-40f1-8f4b-0613c73346d4.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "83114"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zHKo5KsIBVjDX7Tk+P1WzZO0sDBlRnQlkCb9AlYIoI4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 20:16:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zHKo5KsIBVjDX7Tk+P1WzZO0sDBlRnQlkCb9AlYIoI4="
         }
       ]
     },
@@ -11848,7 +12859,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 15:14:37 GMT"
+          "Value": "Sun, 04 May 2025 21:17:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11885,7 +12896,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 15:14:37 GMT"
+          "Value": "Sun, 04 May 2025 21:17:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11930,7 +12941,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 15:14:37 GMT"
+          "Value": "Sun, 04 May 2025 21:17:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -11975,7 +12986,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 03 May 2025 15:14:37 GMT"
+          "Value": "Sun, 04 May 2025 21:17:46 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12154,6 +13165,170 @@
       ]
     },
     {
+      "Route": "Videos/2098ebf6-396d-4243-a7a4-8067ba29e323.2bqc5fagxf.mp4",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\Videos\\2098ebf6-396d-4243-a7a4-8067ba29e323.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3693714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LnGQ/6ofAEoAWJ7f2GDfl6kczYG9d9DAzP9dJEBtpwo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 20:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2bqc5fagxf"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/2098ebf6-396d-4243-a7a4-8067ba29e323.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LnGQ/6ofAEoAWJ7f2GDfl6kczYG9d9DAzP9dJEBtpwo="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/2098ebf6-396d-4243-a7a4-8067ba29e323.mp4",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\Videos\\2098ebf6-396d-4243-a7a4-8067ba29e323.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3693714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LnGQ/6ofAEoAWJ7f2GDfl6kczYG9d9DAzP9dJEBtpwo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 20:40:36 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LnGQ/6ofAEoAWJ7f2GDfl6kczYG9d9DAzP9dJEBtpwo="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/2fb44547-4dc9-46a7-972c-92ef2d490d16.2bqc5fagxf.mp4",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\Videos\\2fb44547-4dc9-46a7-972c-92ef2d490d16.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3693714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LnGQ/6ofAEoAWJ7f2GDfl6kczYG9d9DAzP9dJEBtpwo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 21:18:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2bqc5fagxf"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/2fb44547-4dc9-46a7-972c-92ef2d490d16.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LnGQ/6ofAEoAWJ7f2GDfl6kczYG9d9DAzP9dJEBtpwo="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/2fb44547-4dc9-46a7-972c-92ef2d490d16.mp4",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\Videos\\2fb44547-4dc9-46a7-972c-92ef2d490d16.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3693714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LnGQ/6ofAEoAWJ7f2GDfl6kczYG9d9DAzP9dJEBtpwo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 21:18:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LnGQ/6ofAEoAWJ7f2GDfl6kczYG9d9DAzP9dJEBtpwo="
+        }
+      ]
+    },
+    {
       "Route": "Videos/307fe9b0-8a10-4456-bdca-8903e67004d8.2bqc5fagxf.mp4",
       "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\Videos\\307fe9b0-8a10-4456-bdca-8903e67004d8.mp4",
       "Selectors": [],
@@ -12222,6 +13397,88 @@
         {
           "Name": "Last-Modified",
           "Value": "Sat, 03 May 2025 14:42:28 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LnGQ/6ofAEoAWJ7f2GDfl6kczYG9d9DAzP9dJEBtpwo="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/4cdbe9e5-40ae-453f-9829-256d05c69ab9.2bqc5fagxf.mp4",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\Videos\\4cdbe9e5-40ae-453f-9829-256d05c69ab9.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3693714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LnGQ/6ofAEoAWJ7f2GDfl6kczYG9d9DAzP9dJEBtpwo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 20:36:45 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2bqc5fagxf"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/4cdbe9e5-40ae-453f-9829-256d05c69ab9.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LnGQ/6ofAEoAWJ7f2GDfl6kczYG9d9DAzP9dJEBtpwo="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/4cdbe9e5-40ae-453f-9829-256d05c69ab9.mp4",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\Videos\\4cdbe9e5-40ae-453f-9829-256d05c69ab9.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3693714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LnGQ/6ofAEoAWJ7f2GDfl6kczYG9d9DAzP9dJEBtpwo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 20:36:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -12468,6 +13725,88 @@
         {
           "Name": "Last-Modified",
           "Value": "Sat, 03 May 2025 14:12:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-LnGQ/6ofAEoAWJ7f2GDfl6kczYG9d9DAzP9dJEBtpwo="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/e125c396-04fe-48f8-b598-571027082584.2bqc5fagxf.mp4",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\Videos\\e125c396-04fe-48f8-b598-571027082584.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3693714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LnGQ/6ofAEoAWJ7f2GDfl6kczYG9d9DAzP9dJEBtpwo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 20:16:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2bqc5fagxf"
+        },
+        {
+          "Name": "label",
+          "Value": "Videos/e125c396-04fe-48f8-b598-571027082584.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-LnGQ/6ofAEoAWJ7f2GDfl6kczYG9d9DAzP9dJEBtpwo="
+        }
+      ]
+    },
+    {
+      "Route": "Videos/e125c396-04fe-48f8-b598-571027082584.mp4",
+      "AssetFile": "C:\\Users\\NanoChip\\source\\repos\\Movies\\wwwroot\\Videos\\e125c396-04fe-48f8-b598-571027082584.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3693714"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"LnGQ/6ofAEoAWJ7f2GDfl6kczYG9d9DAzP9dJEBtpwo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 04 May 2025 20:16:07 GMT"
         },
         {
           "Name": "Cache-Control",
