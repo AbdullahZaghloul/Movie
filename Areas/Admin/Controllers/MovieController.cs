@@ -14,9 +14,17 @@ namespace Movies.Areas.Admin.Controllers
     public class MovieController : Controller
     {
         //private readonly ApplicationDbContext _context = new();
-        private readonly IMovieRepository _movieRepository = new MovieRepository();
-        private readonly ICategoryRepository _categoryRepository = new CategoryRepository();
-        private readonly ICinemaRepository _cinemaRepository = new CinemaRepository();
+        private readonly IMovieRepository _movieRepository;
+        private readonly ICategoryRepository _categoryRepository;
+        private readonly ICinemaRepository _cinemaRepository;
+
+        public MovieController(IMovieRepository movieRepository, ICategoryRepository categoryRepository, ICinemaRepository cinemaRepository)
+        {
+            _movieRepository = movieRepository;
+            _categoryRepository = categoryRepository;
+            _cinemaRepository = cinemaRepository;
+        }
+
         public IActionResult Index()
         {
             var movies = _movieRepository.GetAll();

@@ -1,0 +1,45 @@
+﻿@model LoginVM
+
+<div class="container my-3">
+    <div class="row mb-3 align-items-center">
+        <div class="col-md-12">
+            <h2 class="display-6">Login with your Account</h2>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <form method="post">
+                <div class="text-danger" asp-validation-summary="ModelOnly"></div>
+                <div class="mb-3">
+                    <label for="UserNameOREmail" class="form-label">User Name OR Email</label>
+                    <input class="form-control" asp-for="UserNameOREmail">
+                    <span asp-validation-for="UserNameOREmail" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="Password" class="form-label">Password</label>
+                    <input class="form-control" asp-for="Password">
+                    <span asp-validation-for="Password" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <label for="RememberMe" class="form-label">RememberMe</label>
+                    <select class="form-select" asp-for="RememberMe">
+                        <option value="true">ON</option>
+                        <option value="false">OFF</option>
+                    </select>
+                    <span asp-validation-for="RememberMe" class="text-danger"></span>
+                </div>
+                <div class="mb-3">
+                    <a href="/Identity/Account/ResendEmailConfirmation">Resend Email Confirmation</a>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+
+    <partial name="_ValidationScriptsPartial">
+
+}

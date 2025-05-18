@@ -14,13 +14,15 @@ namespace Movies.Areas.Customer.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly IMovieRepository _movieRepository = new MovieRepository();
-        private readonly ICinemaRepository _cinemaRepository = new CinemaRepository();
-        private readonly ICategoryRepository _categoryRepository = new CategoryRepository();
+        private readonly IMovieRepository _movieRepository;
+        private readonly ICinemaRepository _cinemaRepository;
+        private readonly ICategoryRepository _categoryRepository;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(IMovieRepository movieRepository, ICinemaRepository cinemaRepository, ICategoryRepository categoryRepository)
         {
-            _logger = logger;
+            _movieRepository = movieRepository;
+            _cinemaRepository = cinemaRepository;
+            _categoryRepository = categoryRepository;
         }
 
         public IActionResult Index(int categoryId,int cinemaId,int? minPrice,int? maxPrice,int page=1)

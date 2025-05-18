@@ -9,9 +9,9 @@ namespace Movies.Repositories
     {
         private readonly ApplicationDbContext _context;
         private readonly DbSet<T> _dbSet;
-        public Repository()
+        public Repository(ApplicationDbContext context)
         {
-            _context = new ApplicationDbContext();
+           _context = context;
             _dbSet = _context.Set<T>();
         }
         public async Task<bool> AddAsync(T entity)

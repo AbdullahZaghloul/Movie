@@ -1,5 +1,23 @@
 ﻿@model MovieWithCategoriesWithCinemasVM
 
+@{
+    ViewData["Title"] = "Home Page";
+}
+@section Scripts {
+    @if (TempData["Notification"] is not null)
+    {
+        <script>
+            toastr.success('@TempData["Notification"]')
+        </script>
+    }
+    @if (TempData["Notification-error"] is not null)
+    {
+        <script>
+            toastr.error('@TempData["Notification-error"]')
+        </script>
+    }
+}
+
 <!-- Filter Section -->
 <section class="py-4 bg-opacity-10">
     <div class="container px-4 px-lg-5">

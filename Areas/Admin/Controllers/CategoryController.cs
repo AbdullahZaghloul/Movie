@@ -10,7 +10,13 @@ namespace Movies.Areas.Admin.Controllers
     [Area("Admin")]
     public class CategoryController : Controller
     {
-        private readonly ICategoryRepository _categoryRepository = new CategoryRepository();
+        private readonly ICategoryRepository _categoryRepository;
+
+        public CategoryController(ICategoryRepository categoryRepository)
+        {
+            _categoryRepository = categoryRepository;
+        }
+
         public IActionResult Index()
         {
             var categories =  _categoryRepository.GetAll();

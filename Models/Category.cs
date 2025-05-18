@@ -8,8 +8,8 @@ namespace Movies.Models
         public int Id { get; set; }
 
         [Required]
-        [MaxLength(10)]
-        [MinLength(3)]
+        [MaxLength(100)]
+        [MinLength(1)]
         public string Name { get; set; }
         [ValidateNever]
         public List<Movie> Movies { get; set; }
