@@ -1,4 +1,5 @@
-﻿@model IEnumerable<Cinema>
+﻿@using Movies.Utility
+@model IEnumerable<Cinema>
 
 @{
     var i = 1;
@@ -9,9 +10,12 @@
         <div class="col-md-6">
             <h2 class="display-6">All Cinema</h2>
         </div>
-        <div class="col-md-6 text-md-end text-start mt-2 mt-md-0">
-            <a href="/Admin/Cinema/Create" class="btn btn-success">Create</a>
-        </div>
+        @if (User.IsInRole(SD.Admin) || User.IsInRole(SD.SuperAdmin))
+        {
+            <div class="col-md-6 text-md-end text-start mt-2 mt-md-0">
+                <a href="/Admin/Cinema/Create" class="btn btn-success">Create</a>
+            </div>
+        }
     </div>
 
     <div class="row">
@@ -36,10 +40,13 @@
                             <td>@cinema.Description.Substring(0,10)</td>
                             <td>@cinema.Address</td>
                             <td><a href="/Customer/Home/Index?cinemaId=@cinema.Id">All Cinemas</a></td>
-                            <td>
-                                <a href="/Admin/Cinema/Edit/@cinema.Id" class="btn btn-warning btn-sm me-1">Edit</a>
-                                <button class="btn btn-danger btn-sm" onclick="confirmDelete(@cinema.Id)">Delete</button>
-                            </td>
+                            @if (User.IsInRole(SD.Admin) || User.IsInRole(SD.SuperAdmin))
+                            {
+                                <td>
+                                    <a href="/Admin/Cinema/Edit/@cinema.Id" class="btn btn-warning btn-sm me-1">Edit</a>
+                                    <button class="btn btn-danger btn-sm" onclick="confirmDelete(@cinema.Id)">Delete</button>
+                                </td>
+                            }
                         </tr>
                     }
                 </tbody>

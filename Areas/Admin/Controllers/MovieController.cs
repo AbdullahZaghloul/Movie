@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Movies.Data;
 using Movies.Models;
 using Movies.Models.ViewModels;
 using Movies.Repositories;
 using Movies.Repositories.IRepositories;
+using Movies.Utility;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -17,82 +19,101 @@ namespace Movies.Areas.Admin.Controllers
         private readonly IMovieRepository _movieRepository;
         private readonly ICategoryRepository _categoryRepository;
         private readonly ICinemaRepository _cinemaRepository;
+        private readonly IActorRepository _actorRepository;
+        private readonly IMoveActorRepository _moveActorRepository;
 
-        public MovieController(IMovieRepository movieRepository, ICategoryRepository categoryRepository, ICinemaRepository cinemaRepository)
+        public MovieController(IMovieRepository movieRepository, ICategoryRepository categoryRepository
+            , ICinemaRepository cinemaRepository, IActorRepository actorRepository, IMoveActorRepository moveActorRepository)
         {
             _movieRepository = movieRepository;
             _categoryRepository = categoryRepository;
             _cinemaRepository = cinemaRepository;
+            _actorRepository = actorRepository;
+            _moveActorRepository = moveActorRepository;
         }
+        [Authorize(Roles = $"{SD.SuperAdmin},{SD.Admin},{SD.Customer}")]
 
         public IActionResult Index()
         {
             var movies = _movieRepository.GetAll();
             return View(movies.ToList());
         }
+        [Authorize(Roles = $"{SD.SuperAdmin},{SD.Admin}")]
 
+        [HttpGet]
         public IActionResult Create()
         {
-            var categories = _categoryRepository.GetAll();
-            var cinemas = _cinemaRepository.GetAll();
-
-            var movieWithCategoriesWithCienams2 = new MovieWithCategoryWithCinemaVM2()
+            var vm = new MovieWithCategoryWithCinemaVM2
             {
                 Movie = new Movie(),
-                Categories = categories.ToList(),
-                Cinemas = cinemas.ToList(),
-
+                Categories = _categoryRepository.GetAll().ToList(),
+                Cinemas = _cinemaRepository.GetAll().ToList(),
+                Actors = _actorRepository.GetAll().ToList()
             };
 
-            return View(movieWithCategoriesWithCienams2);
+            return View(vm);
         }
+        [Authorize(Roles = $"{SD.SuperAdmin},{SD.Admin}")]
+
         [HttpPost]
-        public async Task<IActionResult> Create(Movie movie, List<IFormFile>? ImgUrl, IFormFile TrailerUrl)
+        public async Task<IActionResult> Create(MovieWithCategoryWithCinemaVM2 vm)
         {
-            if (ModelState.IsValid && ImgUrl != null && ImgUrl.Count > 0 && TrailerUrl != null && TrailerUrl.Length > 0)
+            if (!ModelState.IsValid)
             {
-                foreach (var imgUrl in ImgUrl)
-                {
-                    var FileName = Guid.NewGuid().ToString() + Path.GetExtension(imgUrl.FileName);
-                    var FilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\movies", FileName);
-
-                    using (var stream = System.IO.File.Create(FilePath))
-                    {
-                        await imgUrl.CopyToAsync(stream);
-                    }
-
-                    movie.ImgUrl.Add(FileName);
-                }
-
-                var TrailerName = Guid.NewGuid().ToString() + Path.GetExtension(TrailerUrl.FileName);
-                var TrailerPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\Videos", TrailerName);
-
-                using (var stream = System.IO.File.Create(TrailerPath))
-                {
-                    await TrailerUrl.CopyToAsync(stream);
-                }
-
-                movie.TrailerUrl = TrailerName;
-
-                await _movieRepository.AddAsync(movie);
-                await _movieRepository.CommitAsync();
-
-                return RedirectToAction("Index");
+                return View(vm);
             }
-            var categories = _categoryRepository.GetAll();
-            var cinemas = _cinemaRepository.GetAll();
 
-            var MovieWithCategoryWithCinemaVM2 = new MovieWithCategoryWithCinemaVM2()
+            // Process image files
+            if (vm.ImageFiles != null && vm.ImageFiles.Count > 0)
             {
-                Movie = movie,
-                Categories = categories.ToList(),
-                Cinemas = cinemas.ToList()
-            };
+                vm.Movie.ImgUrl = new List<string>();
+                foreach (var imageFile in vm.ImageFiles)
+                {
+                    var fileName = Guid.NewGuid() + Path.GetExtension(imageFile.FileName);
+                    var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\movies", fileName);
 
-            return View(MovieWithCategoryWithCinemaVM2);
+                    using (var stream = new FileStream(filePath, FileMode.Create))
+                    {
+                        await imageFile.CopyToAsync(stream);
+                    }
+                    vm.Movie.ImgUrl.Add(fileName);
+                }
+            }
 
+            // Process trailer file
+            if (vm.TrailerFile != null && vm.TrailerFile.Length > 0)
+            {
+                var trailerName = Guid.NewGuid() + Path.GetExtension(vm.TrailerFile.FileName);
+                var trailerPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\videos", trailerName);
 
+                using (var stream = new FileStream(trailerPath, FileMode.Create))
+                {
+                    await vm.TrailerFile.CopyToAsync(stream);
+                }
+                vm.Movie.TrailerUrl = trailerName;
+            }
+
+            // Save movie
+            await _movieRepository.AddAsync(vm.Movie);
+            await _movieRepository.CommitAsync();
+
+            // Save actor relationships
+            if (vm.SelectedActorIds != null)
+            {
+                foreach (var actorId in vm.SelectedActorIds)
+                {
+                    await _moveActorRepository.AddAsync(new ActorMovie
+                    {
+                        MovieId = vm.Movie.Id,
+                        ActorId = actorId
+                    });
+                }
+                await _moveActorRepository.CommitAsync();
+            }
+
+            return RedirectToAction("Index");
         }
+        [Authorize(Roles = $"{SD.SuperAdmin},{SD.Admin}")]
 
         public IActionResult Edit(int id)
         {
@@ -103,12 +124,14 @@ namespace Movies.Areas.Admin.Controllers
                 var categories = _categoryRepository.GetAll();
                 //var cinemas = _context.Cinemas;
                 var cinemas = _cinemaRepository.GetAll();
+                var actors = _actorRepository.GetAll();
 
                 MovieWithCategoryWithCinemaVM2 movieWithCategoryWithCinemaVM2 = new()
                 {
                     Movie = movie,
                     Categories = categories.ToList(),
                     Cinemas = cinemas.ToList(),
+                    Actors = actors.ToList(),
                 };
 
                 return View(movieWithCategoryWithCinemaVM2);
@@ -116,18 +139,18 @@ namespace Movies.Areas.Admin.Controllers
 
             return RedirectToAction("NotFoundPage", "Home");
         }
+        [Authorize(Roles = $"{SD.SuperAdmin},{SD.Admin}")]
 
         [HttpPost]
-        public async Task<IActionResult> Edit(Movie movie, List<IFormFile>? ImgUrl , IFormFile TrailerUrl)
+        public async Task<IActionResult> Edit(MovieWithCategoryWithCinemaVM2 vm)
         {
-            var movieInDb = _movieRepository.Get(exception: [m => m.Id == movie.Id], Tracked: false);
-            ModelState.Remove("TrailerUrl");
+            var movieInDb = _movieRepository.Get(exception: [m => m.Id == vm.Movie.Id], Tracked: false);
 
             if (ModelState.IsValid && movieInDb != null)
             {
-                if (ImgUrl != null && ImgUrl.Count > 0)
+                if (vm.ImageFiles != null && vm.ImageFiles.Count > 0)
                 {
-                    foreach (var imgUrl in ImgUrl)
+                    foreach (var imgUrl in vm.ImageFiles)
                     {
                         var FileName = Guid.NewGuid().ToString() + Path.GetExtension(imgUrl.FileName);
                         var FilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\images\\movies", FileName);
@@ -137,8 +160,7 @@ namespace Movies.Areas.Admin.Controllers
                             await imgUrl.CopyToAsync(stream);
                         }
 
-                        // Update img in Db
-                        movie.ImgUrl.Add(FileName);
+                        vm.Movie.ImgUrl.Add(FileName);
 
                     }
 
@@ -155,23 +177,24 @@ namespace Movies.Areas.Admin.Controllers
 
 
                     }
+                   
 
 
                 }
-                if(TrailerUrl!=null && TrailerUrl.Length > 0)
+                if(vm.TrailerFile!=null && vm.TrailerFile.Length > 0)
                 {
-                    var FileName = Guid.NewGuid().ToString() + Path.GetExtension(TrailerUrl.FileName);
+                    var FileName = Guid.NewGuid().ToString() + Path.GetExtension(vm.TrailerFile.FileName);
                     var FilePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\Videos", FileName);
 
                     using (var stream = System.IO.File.Create(FilePath))
                     {
-                        await TrailerUrl.CopyToAsync(stream);
+                        await vm.TrailerFile.CopyToAsync(stream);
                     }
 
-                    // Update img in Db
-                    movie.TrailerUrl = FileName;
+                    vm.Movie.TrailerUrl = FileName;
 
-                    // Delete old img from wwwroot
+
+                    // Delete old trialer from wwwroot
 
                     var oldFileName = movieInDb.TrailerUrl;
                     var oldPath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\Videos", oldFileName);
@@ -180,15 +203,16 @@ namespace Movies.Areas.Admin.Controllers
                     {
                         System.IO.File.Delete(oldPath);
                     }
+                    // Update img in Db
                 }
                 else
                 {
                     // Save the old product img
-                    movie.ImgUrl = movieInDb.ImgUrl;
-                    movie.TrailerUrl = movieInDb.TrailerUrl;
+                    vm.Movie.ImgUrl = movieInDb.ImgUrl;
+                    vm.Movie.TrailerUrl = movieInDb.TrailerUrl;
                 }
 
-                _movieRepository.Update(movie);
+                _movieRepository.Update(vm.Movie);
                 await _movieRepository.CommitAsync();
 
                 return RedirectToAction(nameof(Index));
@@ -196,16 +220,19 @@ namespace Movies.Areas.Admin.Controllers
 
             var categories = _categoryRepository.GetAll();
             var cinemas = _cinemaRepository.GetAll();
-
+            var actors = _actorRepository.GetAll();
             MovieWithCategoryWithCinemaVM2 movieWithCategoryWithCinemaVM2 = new()
             {
-                Movie = movie,
+                Movie = vm.Movie,
                 Categories = categories.ToList(),
                 Cinemas = cinemas.ToList(),
+                Actors = actors.ToList(),
             };
 
             return View(movieWithCategoryWithCinemaVM2);
         }
+        [Authorize(Roles = $"{SD.SuperAdmin},{SD.Admin}")]
+
         public IActionResult Delete(int id)
         {
             var movie = _movieRepository.Get(exception: [m=>m.Id==id]);

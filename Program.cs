@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
 using Movies.Data;
 using Movies.Models;
+using Movies.Models.ViewModels;
 using Movies.Repositories;
 using Movies.Repositories.IRepositories;
 using Movies.Utility;
@@ -21,6 +22,10 @@ namespace Movies
             builder.Services.AddScoped<IMovieRepository,MovieRepository>();
             builder.Services.AddScoped<ICinemaRepository,CinemaRepository>();
             builder.Services.AddScoped<ICategoryRepository,CategoryRepository>();
+            builder.Services.AddScoped<IApplicationUserRepository, ApplicationUserRepository>();
+            builder.Services.AddScoped<IRoleRepository, RoleRepository>();
+            builder.Services.AddScoped<IApplicationUserOTPRepository,ApplicationUserOTPRepository>();
+            builder.Services.AddScoped<IMoveActorRepository, MovieActorRepository>();
             builder.Services.AddTransient<IEmailSender, EmailSender>();
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
             {

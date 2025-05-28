@@ -1,8 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Movies.Data;
 using Movies.Models;
 using Movies.Repositories;
 using Movies.Repositories.IRepositories;
+using Movies.Utility;
 using System.Threading.Tasks;
 
 namespace Movies.Areas.Admin.Controllers
@@ -16,16 +18,19 @@ namespace Movies.Areas.Admin.Controllers
         {
             _categoryRepository = categoryRepository;
         }
-
+        [Authorize(Roles =$"{SD.SuperAdmin},{SD.Admin},{SD.Customer}")]
         public IActionResult Index()
         {
             var categories =  _categoryRepository.GetAll();
             return View(categories.ToList());
         }
+        [Authorize(Roles = $"{SD.SuperAdmin},{SD.Admin}")]
+
         public IActionResult Create()
         {
             return View();
         }
+        [Authorize(Roles = $"{SD.SuperAdmin},{SD.Admin}")]
 
         [HttpPost]
         public async Task<IActionResult> Create(Category category)
@@ -39,6 +44,7 @@ namespace Movies.Areas.Admin.Controllers
             }
             return View(category);
         }
+        [Authorize(Roles = $"{SD.SuperAdmin},{SD.Admin}")]
 
         public IActionResult Edit(int Id)
         {
@@ -49,6 +55,7 @@ namespace Movies.Areas.Admin.Controllers
             }
             return RedirectToAction("NotFound", "Home");
         }
+        [Authorize(Roles = $"{SD.SuperAdmin},{SD.Admin}")]
 
         [HttpPost]
         public async Task<IActionResult> Edit(Category category)
@@ -62,6 +69,7 @@ namespace Movies.Areas.Admin.Controllers
             }
             return View(category);
         }
+        [Authorize(Roles = $"{SD.SuperAdmin},{SD.Admin}")]
 
         public async Task<IActionResult> Delete(int Id)
         {

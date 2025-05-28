@@ -11,44 +11,44 @@
         <div class="col-12">
             <form method="post" enctype="multipart/form-data">
                 <div class="mb-3">
-                    <input hidden class="form-control" asp-for="@Model.Movie.Id">
+                    <input hidden class="form-control" asp-for="Movie.Id">
                 </div>
                 <div class="mb-3">
                     <label for="name" class="form-label">Name</label>
-                    <input class="form-control" asp-for="@Model.Movie.Name">
+                    <input class="form-control" asp-for="Movie.Name">
                     <span asp-validation-for="Movie.Name" class="text-danger"></span>
                 </div>
                 <div class="mb-3">
-                    <label for="name" class="form-label">Description</label>
-                    <input class="form-control" asp-for="@Model.Movie.Description">
+                    <label for="Description" class="form-label">Description</label>
+                    <input class="form-control" asp-for="Movie.Description">
                     <span asp-validation-for="Movie.Description" class="text-danger"></span>
                 </div>
                 <div class="mb-3">
-                    <label for="name" class="form-label">Price</label>
-                    <input class="form-control" asp-for="@Model.Movie.Price">
+                    <label for="Price" class="form-label">Price</label>
+                    <input class="form-control" asp-for="Movie.Price">
                     <span asp-validation-for="Movie.Price" class="text-danger"></span>
                 </div>
                 <div class="mb-3">
-                    <label for="name" class="form-label">ImgUrl</label>
-                    <input type="file" class="form-control" name="ImgUrl" multiple>
+                    <label for="ImageFiles" class="form-label">ImgUrl</label>
+                    <input type="file" class="form-control" asp-for="ImageFiles" multiple>
                 </div>
 
                 <div class="mb-3">
-                    <label for="name" class="form-label">TrailerUrl</label>
-                    <input type="file" class="form-control" name="TrailerUrl">
+                    <label for="TrailerFile" class="form-label">TrailerUrl</label>
+                    <input type="file" class="form-control" asp-for="TrailerFile">
                 </div>
                 <div class="mb-3">
-                    <label for="name" class="form-label">StartDate</label>
-                    <input class="form-control" asp-for="@Model.Movie.StartDate">
-                    <span asp-validation-for="@Model.Movie.StartDate" class="text-danger"></span>
+                    <label for="StartDate" class="form-label">StartDate</label>
+                    <input class="form-control" asp-for="Movie.StartDate">
+                    <span asp-validation-for="Movie.StartDate" class="text-danger"></span>
                 </div>
                 <div class="mb-3">
-                    <label for="name" class="form-label">EndDate</label>
-                    <input class="form-control" asp-for="@Model.Movie.EndDate">
-                    <span asp-validation-for="@Model.Movie.EndDate" class="text-danger"></span>
+                    <label for="EndDate" class="form-label">EndDate</label>
+                    <input class="form-control" asp-for="Movie.EndDate">
+                    <span asp-validation-for="Movie.EndDate" class="text-danger"></span>
                 </div>
                 <div class="mb-3">
-                    <label for="name" class="form-label">MovieStatus</label>
+                    <label for="MovieStatus" class="form-label">MovieStatus</label>
                     <select asp-for="Movie.MovieStatus" class="form-select">
                         <option value="@MovieStatus.Available">@MovieStatus.Available</option>
                         <option value="@MovieStatus.Upcoming">@MovieStatus.Upcoming</option>
@@ -57,24 +57,64 @@
                     <span asp-validation-for="Movie.MovieStatus" class="text-danger"></span>
                 </div>
                 <div class="mb-3">
-                    <label for="name" class="form-label">Cinema</label>
-                    <select asp-for="@Model.Movie.CinemaId" class="form-select">
+                    <label for="CinemaId" class="form-label">Cinema</label>
+                    <select asp-for="Movie.CinemaId" class="form-select">
                         @foreach (var cinema in @Model.Cinemas)
                         {
-                            <option value="@cinema.Id">@cinema.Name</option>
+                            @if(cinema.Id == @Model.Movie.CinemaId)
+                            {
+                                <option value="@cinema.Id" selected>@cinema.Name</option>
+                            }
+                            else
+                            {
+                                <option value="@cinema.Id">@cinema.Name</option>
+
+                            }
+
                         }
                     </select>
-                    <span asp-validation-for="@Model.Movie.CinemaId" class="text-danger"></span>
+                    <span asp-validation-for="Movie.CinemaId" class="text-danger"></span>
                 </div>
                 <div class="mb-3">
-                    <label for="name" class="form-label">Category</label>
-                    <select asp-for="@Model.Movie.CategoryId" class="form-select">
+                    <label for="CategoryId" class="form-label">Category</label>
+                    <select asp-for="Movie.CategoryId" class="form-select">
                         @foreach (var category in @Model.Categories)
                         {
-                            <option value="@category.Id">@category.Name</option>
+                            if(category.Id == Model.Movie.CategoryId)
+                            {
+                                <option value="@category.Id" selected>@category.Name</option>
+                            }
+                            else
+                            {
+                                <option value="@category.Id">@category.Name</option>
+
+                            }
                         }
                     </select>
-                    <span asp-validation-for="@Model.Movie.CategoryId" class="text-danger"></span>
+                    <span asp-validation-for="Movie.CategoryId" class="text-danger"></span>
+                </div>
+
+                <div class="mb-3">
+                    <label for="SelectedActorIds" class="form-label">Category</label>
+                    <select asp-for="SelectedActorIds" class="form-select">
+                        @foreach (var actor in @Model.Actors)
+                        {
+                            foreach(var movieActor in @Model.Movie.ActorMovies)
+                            {
+                                if(actor.Id == movieActor.ActorId)
+                                {
+                                    <option value="@actor.Id" selected>@actor.FirstName</option>
+
+                                }
+                                else
+                                {
+                                    <option value="@actor.Id">@actor.FirstName</option>
+
+                                }
+                            }
+                        }
+                    </select>
+                    <span asp-validation-for="SelectedActorIds" class="text-danger"></span>
                 </div>
                 <button type="submit" class="btn btn-primary">Submit</button>
             </form>

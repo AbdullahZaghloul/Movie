@@ -1,8 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Movies.Data;
 using Movies.Models;
 using Movies.Repositories;
 using Movies.Repositories.IRepositories;
+using Movies.Utility;
 using System.Threading.Tasks;
 
 namespace Movies.Areas.Admin.Controllers
@@ -17,6 +19,7 @@ namespace Movies.Areas.Admin.Controllers
         {
             _cinemaRepository = cinemaRepository;
         }
+        [Authorize(Roles = $"{SD.SuperAdmin},{SD.Admin},{SD.Customer}")]
 
         public IActionResult Index()
         {
@@ -27,6 +30,7 @@ namespace Movies.Areas.Admin.Controllers
         {
             return View();
         }
+        [Authorize(Roles = $"{SD.SuperAdmin},{SD.Admin}")]
 
         [HttpPost]
         public async Task<IActionResult> Create(Cinema cinema)
@@ -40,6 +44,7 @@ namespace Movies.Areas.Admin.Controllers
             }
             return View(cinema);
         }
+        [Authorize(Roles = $"{SD.SuperAdmin},{SD.Admin}")]
 
         public IActionResult Edit(int Id)
         {
@@ -50,7 +55,8 @@ namespace Movies.Areas.Admin.Controllers
             }
             return RedirectToAction("NotFound", "Home");
         }
-        
+        [Authorize(Roles = $"{SD.SuperAdmin},{SD.Admin}")]
+
         [HttpPost]
         public async Task<IActionResult> Edit(Cinema cinema)
         {
@@ -62,6 +68,7 @@ namespace Movies.Areas.Admin.Controllers
             }
             return View(cinema);
         }
+        [Authorize(Roles = $"{SD.SuperAdmin},{SD.Admin}")]
 
         public async Task<IActionResult> Delete(int Id)
         {

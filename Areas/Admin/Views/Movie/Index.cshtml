@@ -1,4 +1,5 @@
-﻿@model IEnumerable<Movie>
+﻿@using Movies.Utility
+@model IEnumerable<Movie>
 
 @{
     var i = 1;
@@ -9,9 +10,12 @@
         <div class="col-md-6">
             <h2 class="display-6">All Movies</h2>
         </div>
-        <div class="col-md-6 text-md-end text-start mt-2 mt-md-0">
-            <a href="/Admin/Movie/Create" class="btn btn-success">Create</a>
-        </div>
+        @if (User.IsInRole(SD.Admin) || User.IsInRole(SD.SuperAdmin))
+        {
+            <div class="col-md-6 text-md-end text-start mt-2 mt-md-0">
+                <a href="/Admin/Movie/Create" class="btn btn-success">Create</a>
+            </div>
+        }
     </div>
 
     <div class="row">
@@ -32,10 +36,13 @@
                             <th scope="row">@(i++)</th>
                             <td>@movie.Name</td>
                             <td>@movie.StartDate</td>
-                            <td>
-                                 <a href="/Admin/Movie/Edit/@movie.Id" class="btn btn-warning btn-sm me-1">Edit</a> 
-                                 <button class="btn btn-danger btn-sm" onclick="confirmDelete(@movie.Id)">Delete</button> 
-                            </td>
+                            @if (User.IsInRole(SD.Admin) || User.IsInRole(SD.SuperAdmin))
+                            {
+                                <td>
+                                    <a href="/Admin/Movie/Edit/@movie.Id" class="btn btn-warning btn-sm me-1">Edit</a>
+                                    <button class="btn btn-danger btn-sm" onclick="confirmDelete(@movie.Id)">Delete</button>
+                                </td>
+                            }
                         </tr>
                     }
                 </tbody>
@@ -60,8 +67,8 @@
             reverseButtons: true
         }).then((result) => {
             if (result.isConfirmed) {
-                window.location.href =  `/Admin/Movie/Delete/${Id}`;
-            }
+                window.location.href = `/Admin/Movie/Delete/${Id}`;
+                }
         });
     }
 </script>

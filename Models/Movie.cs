@@ -9,7 +9,7 @@ public class Movie
     public string Description { get; set; }
     public double Price { get; set; }
     [ValidateNever]
-    public List<string> ImgUrl { get; set; } = [];
+    public List<string> ImgUrl { get; set; } = new();
     [ValidateNever]
     public string TrailerUrl { get; set; } = string.Empty;
     public DateTime StartDate { get; set; }
@@ -29,5 +29,5 @@ public class Movie
 
     // ✅ KEEP THIS:
     [ValidateNever]
-    public List<ActorMovie> ActorMovies { get; set; }
+    public List<ActorMovie> ActorMovies { get; set; } = new();
 }

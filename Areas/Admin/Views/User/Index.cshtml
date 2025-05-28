@@ -1,0 +1,102 @@
+﻿@using Movies.Utility
+@model Dictionary<ApplicationUser, string>
+
+@{
+    var i = 1;
+}
+
+<div class="container my-3">
+    <div class="row mb-3 align-items-center">
+        <div class="col-md-6">
+            <h2 class="display-6">All User</h2>
+        </div>
+         @if (User.IsInRole(SD.Admin) || User.IsInRole(SD.SuperAdmin))
+        { 
+            <div class="col-md-6 text-md-end text-start mt-2 mt-md-0">
+                <a href="/Admin/Category/Create" class="btn btn-success">Create</a>
+            </div>
+        } 
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <table class="table table-bordered table-hover">
+                <thead class="table-primary">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">Email</t>
+                        <th scope="col">Roles</th>
+                        <th scope="col">Action</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var dic in Model)
+                    {
+                        var isLocked = dic.Key.LockoutEnd != null && dic.Key.LockoutEnd > DateTime.Now;
+                        <tr>
+                            <th scope="row">@(i++)</th>
+                            <td>@dic.Key.UserName</td>
+                            <td>@dic.Key.Email</td>
+                            <td>@dic.Value</td>
+                            @if (User.IsInRole(SD.Admin) || User.IsInRole(SD.SuperAdmin))
+                            {
+                                <td>
+                                    <a href="/Admin/User/ChangeRole/@dic.Key.Id" class="btn btn-warning btn-sm me-1">Change Role</a>
+                                    @if (!isLocked)
+                                    {
+                                        <button class="btn btn-danger btn-sm" onclick="confirmBlock('@dic.Key.Id')">Block</button>
+                                    }
+                                    else
+                                    {
+                                        <button class="btn btn-success btn-sm" onclick="confirmUnblock('@dic.Key.Id')">Unblock</button>
+                                    }
+                                </td>
+                            } 
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<!-- SweetAlert2 Delete Confirmation Script -->
+<script>
+    function confirmBlock(id) {
+        Swal.fire({
+            title: 'Block User?',
+            text: "This will prevent the user from logging in.",
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#d33',
+            cancelButtonColor: '#3085d6',
+            confirmButtonText: 'Yes, block',
+            cancelButtonText: 'Cancel'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.href = `/Admin/User/BlockUnBlock/${id}`;
+            }
+        });
+    }
+
+    function confirmUnblock(id) {
+        Swal.fire({
+            title: 'Unblock User?',
+            text: "This will allow the user to log in again.",
+            icon: 'question',
+            showCancelButton: true,
+            confirmButtonColor: '#28a745',
+            cancelButtonColor: '#6c757d',
+            confirmButtonText: 'Yes, unblock',
+            cancelButtonText: 'Cancel'
+        }).then((result) => {
+            if (result.isConfirmed) {
+                window.location.href = `/Admin/User/BlockUnBlock/${id}`;
+            }
+        });
+    }
+</script>
+
+

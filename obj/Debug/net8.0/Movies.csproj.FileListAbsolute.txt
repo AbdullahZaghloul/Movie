@@ -10,6 +10,9 @@ C:\Users\NanoChip\source\repos\Movies\bin\Debug\net8.0\Movies.pdb
 C:\Users\NanoChip\source\repos\Movies\bin\Debug\net8.0\Azure.Core.dll
 C:\Users\NanoChip\source\repos\Movies\bin\Debug\net8.0\Azure.Identity.dll
 C:\Users\NanoChip\source\repos\Movies\bin\Debug\net8.0\Humanizer.dll
+C:\Users\NanoChip\source\repos\Movies\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\NanoChip\source\repos\Movies\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\NanoChip\source\repos\Movies\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
 C:\Users\NanoChip\source\repos\Movies\bin\Debug\net8.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\NanoChip\source\repos\Movies\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\NanoChip\source\repos\Movies\bin\Debug\net8.0\Microsoft.Build.dll
@@ -36,6 +39,8 @@ C:\Users\NanoChip\source\repos\Movies\bin\Debug\net8.0\Microsoft.Extensions.Cach
 C:\Users\NanoChip\source\repos\Movies\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\NanoChip\source\repos\Movies\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 C:\Users\NanoChip\source\repos\Movies\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\NanoChip\source\repos\Movies\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\NanoChip\source\repos\Movies\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
 C:\Users\NanoChip\source\repos\Movies\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
 C:\Users\NanoChip\source\repos\Movies\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
 C:\Users\NanoChip\source\repos\Movies\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
@@ -247,6 +252,7 @@ C:\Users\NanoChip\source\repos\Movies\obj\Debug\net8.0\scopedcss\Views\Shared\_L
 C:\Users\NanoChip\source\repos\Movies\obj\Debug\net8.0\scopedcss\bundle\Movies.styles.css
 C:\Users\NanoChip\source\repos\Movies\obj\Debug\net8.0\scopedcss\projectbundle\Movies.bundle.scp.css
 C:\Users\NanoChip\source\repos\Movies\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\NanoChip\source\repos\Movies\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\NanoChip\source\repos\Movies\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\NanoChip\source\repos\Movies\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\NanoChip\source\repos\Movies\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
@@ -256,9 +262,3 @@ C:\Users\NanoChip\source\repos\Movies\obj\Debug\net8.0\refint\Movies.dll
 C:\Users\NanoChip\source\repos\Movies\obj\Debug\net8.0\Movies.pdb
 C:\Users\NanoChip\source\repos\Movies\obj\Debug\net8.0\Movies.genruntimeconfig.cache
 C:\Users\NanoChip\source\repos\Movies\obj\Debug\net8.0\ref\Movies.dll
-C:\Users\NanoChip\source\repos\Movies\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
-C:\Users\NanoChip\source\repos\Movies\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
-C:\Users\NanoChip\source\repos\Movies\bin\Debug\net8.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
-C:\Users\NanoChip\source\repos\Movies\bin\Debug\net8.0\Microsoft.Extensions.Identity.Core.dll
-C:\Users\NanoChip\source\repos\Movies\bin\Debug\net8.0\Microsoft.Extensions.Identity.Stores.dll
-C:\Users\NanoChip\source\repos\Movies\obj\Debug\net8.0\staticwebassets.build.json.cache

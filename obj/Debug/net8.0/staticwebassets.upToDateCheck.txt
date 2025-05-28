@@ -26,7 +26,6 @@ wwwroot\images\d97a3dc4-deaf-4fd2-bd81-64af3755b17e.png
 wwwroot\images\fa4b5f02-7900-468e-bfdf-64390ef55afd.png
 wwwroot\images\img-admin\error-404-monochrome.svg
 wwwroot\images\logo.png
-wwwroot\images\movies\081cb731-d4ca-409e-86db-29a0ab60bbf6.png
 wwwroot\images\movies\0f74ce1f-a8e1-4c71-abbf-5cf66479d341.png
 wwwroot\images\movies\1f40f3a9-6679-46ad-819b-c3c4b0ee4555.png
 wwwroot\images\movies\29192a3b-d2e6-4ea9-97bf-5bbac79db6aa.png
@@ -48,7 +47,6 @@ wwwroot\images\movies\a197dbbc-b692-456c-8639-586775d41fb2.jpg
 wwwroot\images\movies\ba4ef602-f56f-4f16-b42f-4beae2c652d8.png
 wwwroot\images\movies\c1a158f9-5e08-40f1-8f4b-0613c73346d4.png
 wwwroot\images\movies\da74f58d-a60c-47ab-b4ab-352583dbed49.jpg
-wwwroot\images\movies\e4c368d1-07e2-4956-942a-527cf5e22fcb.png
 wwwroot\images\movies\ec4149ee-b7f7-4936-8920-05b8df787569.png
 wwwroot\images\movies\movie1.png
 wwwroot\images\movies\movie10.png
@@ -127,8 +125,15 @@ wwwroot\Videos\09bae06c-7963-4d23-a4e2-22d7adcc1c3d.mp4
 wwwroot\Videos\2098ebf6-396d-4243-a7a4-8067ba29e323.mp4
 wwwroot\Videos\307fe9b0-8a10-4456-bdca-8903e67004d8.mp4
 wwwroot\Videos\4cdbe9e5-40ae-453f-9829-256d05c69ab9.mp4
-wwwroot\Videos\5c5dae5b-39ec-471c-8e73-6861d41b1435.mp4
-wwwroot\Videos\a36c7c34-8c85-4d7e-abd7-9bb67c1fdc34.mp4
 wwwroot\Videos\a9a7cb90-b481-4e23-894c-a91e196e2b14.mp4
 wwwroot\Videos\ccd12355-445e-4bf5-91c0-ca64b5c85f87.mp4
 wwwroot\Videos\e125c396-04fe-48f8-b598-571027082584.mp4
+wwwroot\images\movies\081cb731-d4ca-409e-86db-29a0ab60bbf6.png
+wwwroot\images\movies\e4c368d1-07e2-4956-942a-527cf5e22fcb.png
+wwwroot\images\movies\9a6ecfaf-8d2a-4121-9bce-9c2a514551bb.png
+wwwroot\images\movies\d1da0773-3ac3-418b-9355-513edc19eacf.png
+wwwroot\images\movies\0880b233-4ad0-4a86-b75b-9819ff602738.png
+wwwroot\images\movies\fcc2985d-9057-4c27-b6da-36bbc292bed3.png
+wwwroot\images\movies\a6a36215-c59a-4f08-a066-d9c179782e53.png
+wwwroot\images\movies\a4fbcdbf-fc60-44ba-bfd5-d67aca78ed9c.png
+wwwroot\images\movies\e5961366-2bc4-44bc-a228-c3aecdc54f14.png
