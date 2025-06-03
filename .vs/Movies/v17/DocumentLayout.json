@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\NanoChip\\source\\repos\\Movies\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|c:\\users\\nanochip\\source\\repos\\movies\\areas\\identity\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D359B27-52FA-4172-B2DA-0087D578CED0}|Movies.csproj|solutionrelative:areas\\identity\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -206,7 +210,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -221,24 +225,21 @@
               "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_AdminLayout.cshtml",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Views\\Shared\\_AdminLayout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_AdminLayout.cshtml",
+              "ViewState": "AgIAACkAAAAAAAAAAAAjwDUAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-28T06:57:49.721Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Areas\\Admin\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAAkwE0AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-27T07:05:38.63Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "MovieController.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Controllers\\MovieController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\MovieController.cs",
@@ -250,7 +251,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "CategoryController.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Controllers\\CategoryController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\CategoryController.cs",
@@ -262,7 +263,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "CinemaController.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Controllers\\CinemaController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\CinemaController.cs",
@@ -274,7 +275,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\Movie\\Edit.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Movie\\Edit.cshtml",
@@ -286,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\User\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\User\\Index.cshtml",
@@ -298,7 +299,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "UserWithRolesVM.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Models\\ViewModels\\UserWithRolesVM.cs",
               "RelativeDocumentMoniker": "Models\\ViewModels\\UserWithRolesVM.cs",
@@ -310,7 +311,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Identity\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Areas\\Identity\\Controllers\\AccountController.cs",
@@ -318,12 +319,23 @@
               "RelativeToolTip": "Areas\\Identity\\Controllers\\AccountController.cs",
               "ViewState": "AgIAAHMAAAAAAAAAAAAQwH0AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T19:48:31.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T19:48:31.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Areas\\Admin\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAkwE0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T07:05:38.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "ChangeRole.cshtml",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\User\\ChangeRole.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\User\\ChangeRole.cshtml",
@@ -335,7 +347,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\Category\\Edit.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Edit.cshtml",
@@ -347,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\Category\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Create.cshtml",
@@ -359,7 +371,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -371,7 +383,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "ApplicationUserRepository .cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Repositories\\ApplicationUserRepository .cs",
               "RelativeDocumentMoniker": "Repositories\\ApplicationUserRepository .cs",
@@ -383,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "ICategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Repositories\\IRepositories\\ICategoryRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IRepositories\\ICategoryRepository.cs",
@@ -395,7 +407,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\Category\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Category\\Index.cshtml",
@@ -407,7 +419,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "IApplicationUserRepository .cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Repositories\\IRepositories\\IApplicationUserRepository .cs",
               "RelativeDocumentMoniker": "Repositories\\IRepositories\\IApplicationUserRepository .cs",
@@ -419,7 +431,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "IRoleRepository.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Repositories\\IRepositories\\IRoleRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IRepositories\\IRoleRepository.cs",
@@ -431,7 +443,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "ActorRepository.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Repositories\\ActorRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ActorRepository.cs",
@@ -443,7 +455,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ApplicationUserOTPRepository.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Repositories\\ApplicationUserOTPRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ApplicationUserOTPRepository.cs",
@@ -455,7 +467,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "RoleRepository .cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Repositories\\RoleRepository .cs",
               "RelativeDocumentMoniker": "Repositories\\RoleRepository .cs",
@@ -467,7 +479,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Repositories\\Repository.cs",
               "RelativeDocumentMoniker": "Repositories\\Repository.cs",
@@ -479,7 +491,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "MovieRepository.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Repositories\\MovieRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\MovieRepository.cs",
@@ -491,7 +503,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "MovieActorRepository.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Repositories\\MovieActorRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\MovieActorRepository.cs",
@@ -503,7 +515,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "CinemaRepository.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Repositories\\CinemaRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\CinemaRepository.cs",
@@ -515,7 +527,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "CategoryRepository.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Repositories\\CategoryRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\CategoryRepository.cs",
@@ -527,7 +539,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "IActorRepository.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Repositories\\IRepositories\\IActorRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IRepositories\\IActorRepository.cs",
@@ -539,7 +551,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Areas\\Admin\\Controllers\\HomeController.cs",
@@ -551,7 +563,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\Cinema\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Cinema\\Index.cshtml",
@@ -563,7 +575,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "Login.cshtml",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Identity\\Views\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Views\\Account\\Login.cshtml",
@@ -575,7 +587,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\Movie\\Index.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Movie\\Index.cshtml",
@@ -587,7 +599,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "ForgetPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Identity\\Views\\Account\\ForgetPassword.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Views\\Account\\ForgetPassword.cshtml",
@@ -599,7 +611,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "ForgetPasswordVM.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Models\\ViewModels\\ForgetPasswordVM.cs",
               "RelativeDocumentMoniker": "Models\\ViewModels\\ForgetPasswordVM.cs",
@@ -611,7 +623,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "ApplicationUserOTP.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Models\\ViewModels\\ApplicationUserOTP.cs",
               "RelativeDocumentMoniker": "Models\\ViewModels\\ApplicationUserOTP.cs",
@@ -623,7 +635,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -635,7 +647,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "SD.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Utility\\SD.cs",
               "RelativeDocumentMoniker": "Utility\\SD.cs",
@@ -647,7 +659,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "ResetPasswordVM.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Models\\ViewModels\\ResetPasswordVM.cs",
               "RelativeDocumentMoniker": "Models\\ViewModels\\ResetPasswordVM.cs",
@@ -659,7 +671,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "ResetPassword.cshtml",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Identity\\Views\\Account\\ResetPassword.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Views\\Account\\ResetPassword.cshtml",
@@ -671,7 +683,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "IApplicationUserOTPRepository.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Repositories\\IRepositories\\IApplicationUserOTPRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IRepositories\\IApplicationUserOTPRepository.cs",
@@ -683,7 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Identity\\Views\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Views\\Account\\Register.cshtml",
@@ -695,7 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationUser.cs",
@@ -707,7 +719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -719,7 +731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "EmailSender.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Utility\\EmailSender.cs",
               "RelativeDocumentMoniker": "Utility\\EmailSender.cs",
@@ -731,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "MovieWithCategoryWithCinemaVM2.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Models\\ViewModels\\MovieWithCategoryWithCinemaVM2.cs",
               "RelativeDocumentMoniker": "Models\\ViewModels\\MovieWithCategoryWithCinemaVM2.cs",
@@ -743,7 +755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "IMovieRepository.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Repositories\\IRepositories\\IMovieRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IRepositories\\IMovieRepository.cs",
@@ -755,7 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "ICinemaRepository.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Repositories\\IRepositories\\ICinemaRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IRepositories\\ICinemaRepository.cs",
@@ -767,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "IMoveActorRepository.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Repositories\\IRepositories\\IMoveActorRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IRepositories\\IMoveActorRepository.cs",
@@ -779,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "ActorMovie.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Models\\ActorMovie.cs",
               "RelativeDocumentMoniker": "Models\\ActorMovie.cs",
@@ -791,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "Movie.cs",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Models\\Movie.cs",
               "RelativeDocumentMoniker": "Models\\Movie.cs",
@@ -803,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\NanoChip\\source\\repos\\Movies\\Areas\\Admin\\Views\\Movie\\Create.cshtml",
               "RelativeDocumentMoniker": "Areas\\Admin\\Views\\Movie\\Create.cshtml",
